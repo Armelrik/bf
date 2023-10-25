@@ -5,6 +5,8 @@ import Destination from "../components/Destination";
 import Trip from "../components/Trip";
 import Footer from "../components/Footer";
 
+import Img1 from "../assets/2.jpg";
+
 
 function Home(){
     return(
@@ -12,10 +14,10 @@ function Home(){
         <Navbar/>
         <Hero 
             cName="hero"
-            heroImg="./assets/12.jpg" 
-            title="Le pays des hommes integres"
+            heroImg={Img1}
+            title="Le pays des hommes intègres"
             text="Ambassade du Burkina-Faso" 
-            buttonText="Nous visiter"
+            buttonText="Rendez-vous"
             url="/"
             btnClass="show"
         />

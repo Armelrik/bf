@@ -5,17 +5,31 @@ import Img1 from "../assets/istockphoto-1290323627-1024x1024.jpg";
 import Img2 from "../assets/istockphoto-1301083980-1024x1024.jpg";
 import Img3 from '../assets/istockphoto-1288874565-1024x1024.jpg';
 import Img4 from '../assets/istockphoto-515599896-1024x1024.jpg';
+import Img5 from "../assets/Ibrahim-Traore.jpg";
+import Img6 from "../assets/Olivia-Rouamba.jpeg";
+
 
 
 const Destination = () => {
   return (
     <div className='destination'>
-        <h1>Destinations populaires</h1>
-        <p>Les opportunites de visiter la nature sauvage du pays</p>
+        <h1>Ni waongo - Bienvenue</h1>
+        <p>Son Excellence Monsieur l'ambassadeur extraordinaire et plénipotentiaire du Burkina Faso.</p>
 
         <DestinationData 
             className="first-des"
-            heading="Les pics de Sindou"
+            heading="Le mot du président"
+            text="Son excellence Président du Faso, Chef de l’État le Capitaine Ibrahim TRAORE : ''Do do esse dolor sit ut pariatur enim velit. Est cillum aliquip consequat
+            Tempor aute exercitation anim esse. Do do esse dolor sit ut pariatur enim velit. Est cillum aliquip consequat esse proident laboris officia eiusmod ut dolore.
+            Tempor aute exercitation anim esse. Do do esse dolor sit ut pariatur enim velit. Est cillum aliquip consequat esse proident laboris officia eiusmod ut dolore.
+            Tempor aute exercitation anim esse. Do do esse dolor sit ut pariatur enim velit. Est cillum aliquip consequat esse proident laboris officia eiusmod ut dolore.
+            Tempor aute exercitation anim esse. Do do esse dolor sit ut pariatur enim velit. Est cillum aliquip consequat esse proident laboris officia eiusmod ut dolore.'' "
+            img1={Img5}
+            img2={Img6}
+        />
+        <DestinationData 
+            className="first-des-reverse"
+            heading="Les sites touristiques"
             text="Tempor aute exercitation anim esse. Do do esse dolor sit ut pariatur enim velit. Est cillum aliquip consequat esse proident laboris officia eiusmod ut dolore.
             Tempor aute exercitation anim esse. Do do esse dolor sit ut pariatur enim velit. Est cillum aliquip consequat esse proident laboris officia eiusmod ut dolore.
             Tempor aute exercitation anim esse. Do do esse dolor sit ut pariatur enim velit. Est cillum aliquip consequat esse proident laboris officia eiusmod ut dolore.
@@ -26,8 +40,8 @@ const Destination = () => {
         />
 
         <DestinationData 
-            className="first-des-reverse"
-            heading="Les cascades de Banfora"
+            className="first-des"
+            heading="Les activitées culturelles"
             text="Tempor aute exercitation anim esse. Do do esse dolor sit ut pariatur enim velit. Est cillum aliquip consequat esse proident laboris officia eiusmod ut dolore.
             Tempor aute exercitation anim esse. Do do esse dolor sit ut pariatur enim velit. Est cillum aliquip consequat esse proident laboris officia eiusmod ut dolore.
             Tempor aute exercitation anim esse. Do do esse dolor sit ut pariatur enim velit. Est cillum aliquip consequat esse proident laboris officia eiusmod ut dolore.

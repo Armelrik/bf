@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
-import AboutImg from "../assets/istockphoto-1219546128-1024x1024.jpg";
+import AboutImg from "../assets/4.jpg";
 import Footer from '../components/Footer';
 import AboutUs from '../components/AboutUs';
 

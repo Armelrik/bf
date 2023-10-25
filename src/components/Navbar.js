@@ -8,6 +8,10 @@ class Navbar extends Component {
   state = { clicked: false};
   handledClick = () => {
     this.setState({ clicked: !this.state.clicked })
+  };
+
+  OpLink = () => {
+    <a href='/signup'></a>
   }
 
   render(){
@@ -31,7 +35,8 @@ class Navbar extends Component {
               </li>
             );
           })}
-          <button>Sign up</button>
+          {/* <button><Link to='/signup'>S'inscrire</Link></button> */}
+          <button onClick={"/signup"} >S'inscrire</button>
         </ul>
       </nav>
     );
