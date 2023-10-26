@@ -10,10 +10,6 @@ class Navbar extends Component {
     this.setState({ clicked: !this.state.clicked })
   };
 
-  OpLink = () => {
-    <a href='/signup'></a>
-  }
-
   render(){
     return(
       <nav className="NavbarItems">
