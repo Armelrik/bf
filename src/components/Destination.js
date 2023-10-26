@@ -14,7 +14,7 @@ const Destination = () => {
   return (
     <div className='destination'>
         <h1>Ni waongo - Bienvenue</h1>
-        <p>Son Excellence Monsieur l'ambassadeur extraordinaire et plénipotentiaire du Burkina Faso.</p>
+        <p>Son Excellence Monsieur l'ambassadeur extraordinaire et plénipotentiaire du Burkina Faso aux Émirats Arabes Unis.</p>
 
         <DestinationData 
             className="first-des"

@@ -52,7 +52,7 @@ const Footer = () => {
             </div>
         </div>
         <div className='credit'>
-            <hr/>Ambassade du Burkina-Faso aux E.A.U. @2023 - <a href='www.armelrik.com'>Melrik's design.</a>
+            <hr/>Ambassade du Burkina-Faso aux E.A.U. @2023 - <a href='www.armelrik.com'>Melrik's digital.</a>
         </div>
     </div>
   )
