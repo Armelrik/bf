@@ -6,7 +6,7 @@ const Footer = () => {
     <div className='footer'>
         <div className='top'>
             <div>
-                <h1>Ambassade du Burkina-Faso.</h1>
+                <h1>Ambassade du Burkina-Faso aux Émirats Arabes Unis</h1>
                 <p>Le Pays des hommes intègres.</p>
             </div>
             <div>
@@ -52,7 +52,7 @@ const Footer = () => {
             </div>
         </div>
         <div className='credit'>
-            <hr/>Ambassade du Burkina-Faso @2023 - <a href='www.armelrik.com'>Melrik's design.</a>
+            <hr/>Ambassade du Burkina-Faso aux Émirats Arabes Unis @2023 - <a href='www.armelrik.com'>Melrik's design.</a>
         </div>
     </div>
   )
