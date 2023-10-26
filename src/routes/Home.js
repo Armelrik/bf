@@ -16,7 +16,7 @@ function Home(){
             cName="hero"
             heroImg={Img1}
             title="Le pays des hommes intègres"
-            text="Ambassade du Burkina-Faso aux Émirats Arabes Unis" 
+            text="Burkina-Faso" 
             buttonText="Rendez-vous"
             url="/"
             btnClass="show"
