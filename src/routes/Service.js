@@ -52,7 +52,7 @@ function Service() {
             />
             <TripData 
                 image={Img4}
-                heading = "Services Passports"
+                heading = "Services Consulaires"
                 text = "Tempor aute exercitation anim esse. Do do esse dolor sit ut pariatur enim velit. Est cillum aliquip consequat esse proident laboris officia eiusmod ut dolore.
                 Tempor aute exercitation anim esse. Do do esse dolor sit ut pariatur enim velit. Est cillum aliquip consequat esse proident laboris officia eiusmod ut dolore.
                 Tempor aute exercitation anim esse."
