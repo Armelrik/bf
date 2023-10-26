@@ -1,7 +1,7 @@
 import React from 'react';
 import './DestinationStyles.css';
 import DestinationData from './DestinationData';
-import Img1 from "../assets/istockphoto-1290323627-1024x1024.jpg";
+import Img1 from "../assets/istockphoto-467228674-1024x1024.jpg";
 import Img2 from "../assets/istockphoto-1301083980-1024x1024.jpg";
 import Img3 from '../assets/istockphoto-1288874565-1024x1024.jpg';
 import Img4 from '../assets/istockphoto-515599896-1024x1024.jpg';
@@ -20,7 +20,7 @@ const Destination = () => {
             className="first-des"
             heading="Le mot du président"
             text="Son excellence Président du Faso, Chef de l’État le Capitaine Ibrahim TRAORE : ''Do do esse dolor sit ut pariatur enim velit. Est cillum aliquip consequat
-            Tempor aute exercitation anim esse. Do do esse dolor sit ut pariatur enim velit. Est cillum aliquip consequat esse proident laboris officia eiusmod ut dolore.
+            Tempor aute exercitation anim esse. Do do esse dolor sit ut pariatur enim velit.
             Tempor aute exercitation anim esse. Do do esse dolor sit ut pariatur enim velit. Est cillum aliquip consequat esse proident laboris officia eiusmod ut dolore.
             Tempor aute exercitation anim esse. Do do esse dolor sit ut pariatur enim velit. Est cillum aliquip consequat esse proident laboris officia eiusmod ut dolore.
             Tempor aute exercitation anim esse. Do do esse dolor sit ut pariatur enim velit. Est cillum aliquip consequat esse proident laboris officia eiusmod ut dolore.'' "
