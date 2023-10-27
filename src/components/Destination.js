@@ -6,7 +6,7 @@ import Img2 from "../assets/istockphoto-1301083980-1024x1024.jpg";
 import Img3 from '../assets/istockphoto-1288874565-1024x1024.jpg';
 import Img4 from '../assets/istockphoto-515599896-1024x1024.jpg';
 import Img5 from "../assets/Ibrahim-Traore.jpg";
-import Img6 from "../assets/Olivia-Rouamba.jpeg";
+import Img6 from "../assets/ambasador.jpeg";
 
 
 
@@ -26,6 +26,8 @@ const Destination = () => {
             Tempor aute exercitation anim esse. Do do esse dolor sit ut pariatur enim velit. Est cillum aliquip consequat esse proident laboris officia eiusmod ut dolore.'' "
             img1={Img5}
             img2={Img6}
+            headline1="Tempor aute exercitation anim esse"
+            headline2="Dr. Souleymane KONATE SEM L'ambassadeur"
         />
         <DestinationData 
             className="first-des-reverse"

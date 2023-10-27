@@ -15,7 +15,9 @@ class DestinationData extends Component{
 
             <div className='image'>
                 <img alt='image1' src={this.props.img1} />
+                {/* <h4>{this.props.headline1}</h4> */}
                 <img alt='image2' src={this.props.img2} />
+                {/* <h4>{this.props.headline2}</h4> */}
             </div>
         </div>
         )

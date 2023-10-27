@@ -6,6 +6,7 @@ import Trip from "../components/Trip";
 import Footer from "../components/Footer";
 
 import Img1 from "../assets/2.jpg";
+import Tools from "../components/Tools";
 
 
 function Home(){
@@ -23,6 +24,7 @@ function Home(){
         />
         <Destination />
         <Trip />
+        <Tools />
         <Footer />
         </>
     )
