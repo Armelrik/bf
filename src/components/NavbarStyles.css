@@ -16,6 +16,19 @@
     z-index: 9999;
 }
 
+.logo{
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    /* border-color: #9a0101; */
+
+}
+
+.logo:hover{
+    /* background-color: #9a0101; */
+    background-clip: content-box;
+    cursor: pointer;
+}
 
 .navbar-logo{
     color: #222;

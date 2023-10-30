@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-// import App from './App';
+import App from './App';
 import "./styles.css";
 import { BrowserRouter } from 'react-router-dom';
 import i18n from "i18next";
@@ -29,11 +29,11 @@ i18n
     fallbackLng: "en",
   });
 
-  function App() {
-    const { t } = useTranslation();
+  // function App() {
+  //   const { t } = useTranslation();
   
-    return <h2>{t('Welcome to React')}</h2>;
-  }
+  //   return <h2>{t('Welcome to React')}</h2>;
+  // }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

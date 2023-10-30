@@ -5,6 +5,7 @@ import About from "./routes/About";
 import Service from "./routes/Service";
 import Contact from "./routes/Contact";
 import Signup from './routes/Signup';
+import BackToTopButton from './components/BackToTopButton';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/signup' element={<Signup/>} />
         {/*  <Route path='/signup' element={<Signup/>} /> */}
       </Routes>
+      <BackToTopButton />
     </div>
   );
 }

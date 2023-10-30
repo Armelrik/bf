@@ -1,0 +1,23 @@
+.bClass{
+    justify-content: center;
+}
+
+.buttonClass {
+    position: "fixed";
+    bottom: "50px";
+    right: "50px";
+    height: "50px";
+    width: "50px";
+    /* font-size: "50px"; */
+    justify-content: center;
+    text-align: center;
+    color: rgb(14, 9, 3);
+    /* background-color: azure; */
+    box-shadow: 1px;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.30);
+}
+
+.buttonClass:hover{
+    color: #9a0101;
+    background-color: black;
+}

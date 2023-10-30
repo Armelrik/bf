@@ -2,6 +2,7 @@ import './NavbarStyles.css';
 import { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { MenuItems } from './MenuItems';
+import Img from '../assets/bf.png';
 
 class Navbar extends Component {
 
@@ -13,8 +14,10 @@ class Navbar extends Component {
   render(){
     return(
       <nav className="NavbarItems">
-        <h1 className="navbar-logo"><Link className='navbar-logo-link' to='/'>Burkina-Faso</Link> </h1>
-
+        <h1 className="navbar-logo"> 
+          <img src={Img} alt='logo'className='logo'/>
+          {/* <Link className='navbar-logo-link' to='/'>Burkina-Faso</Link>  */}
+        </h1>
         <div className="menu-icons" onClick={this.handledClick}>
           <i className={this.state.clicked ? "fas fa-times"
             : "fas fa-bars" }></i>
