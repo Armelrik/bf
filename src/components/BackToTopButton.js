@@ -33,7 +33,7 @@ function BackToTopButton() {
             right: "50px",
             height: "50px",
             width: "50px",
-            fontSize: "40px",
+            fontSize: "20px",
             // textAlign: "center",
             cursor: "pointer",
         }} 

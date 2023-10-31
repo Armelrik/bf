@@ -7,12 +7,14 @@ import Footer from "../components/Footer";
 
 import Img1 from "../assets/2.jpg";
 import Tools from "../components/Tools";
+import NavbarToo from "../components/NavbarToo";
 
 
 function Home(){
     return(
         <>
-        <Navbar/>
+        {/* <Navbar/> */}
+        <Navbar />
         <Hero 
             cName="hero"
             heroImg={Img1}

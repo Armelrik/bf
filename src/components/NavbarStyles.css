@@ -26,7 +26,7 @@
 
 .logo:hover{
     /* background-color: #9a0101; */
-    background-clip: content-box;
+    /* background-clip: content-box; */
     cursor: pointer;
 }
 
