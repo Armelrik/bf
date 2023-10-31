@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 
 import Img1 from "../assets/2.jpg";
 import Tools from "../components/Tools";
-import NavbarToo from "../components/NavbarToo";
+// import NavbarToo from "../components/NavbarToo";
 
 
 function Home(){
