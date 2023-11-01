@@ -104,6 +104,38 @@ button:hover{
     display: none;
 }
 
+.nav {
+    height: 10vh;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo{
+    color: #9a0101;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 10rem;
+}
+
+.nav-items{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: flex-end;
+    margin-right: 2rem;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
 @media screen and (max-width: 900px){
 
     .NavbarItems{

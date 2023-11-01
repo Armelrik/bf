@@ -1,0 +1,12 @@
+.service-submenu {
+    width: 10rem;
+    position: absolute;
+    list-style: none;
+    text-align: start;
+}
+
+.service-submenu li{
+    background: rgb(173, 3, 3);
+}
+
+

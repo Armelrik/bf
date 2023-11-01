@@ -2,7 +2,10 @@ import './NavbarStyles.css';
 import { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { MenuItems } from './MenuItems';
+import { serviceDropdown } from './MenuItems';
 import Img from '../assets/bf.png';
+import Button from './Button';
+import Dropdown from './Dropdown';
 
 class Navbar extends Component {
 
@@ -13,7 +16,38 @@ class Navbar extends Component {
 
   render(){
     return(
-      <nav className="NavbarItems">
+      <>
+      <nav className='nav'>
+        <Link to="/" className='nav-logo'>
+          <img src={Img} alt='logo'className='logo'/>
+        </Link>
+
+         <ul className="nav-items">
+          { MenuItems.map((item) => {
+            return(
+              <li key={item.id}>
+                <Link className={item.cName} to={item.url}>
+                  <i class={item.icon}></i>{item.title}
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+        <Button />
+      </nav>
+      <Dropdown />
+</>
+      
+
+    )
+  }
+}
+
+export default Navbar;
+
+function nav () {
+
+  <nav className="NavbarItems">
         <h1 className="navbar-logo"> 
           <img src={Img} alt='logo'className='logo'/>
           {/* <Link className='navbar-logo-link' to='/'>Burkina-Faso</Link>  */}
@@ -37,10 +71,6 @@ class Navbar extends Component {
           {/* <button><Link to='/signup'>S'inscrire</Link></button> */}
           <button onClick={"/signup"} >S'inscrire</button>
         </ul>
-      </nav>
-    );
-  }
+      </nav> 
+
 }
-
-export default Navbar;
-
