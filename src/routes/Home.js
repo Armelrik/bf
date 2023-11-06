@@ -7,20 +7,24 @@ import Footer from "../components/Footer";
 
 import Img1 from "../assets/2.jpg";
 import Tools from "../components/Tools";
+import NavbarLast from "../components/NavbarLast";
 // import NavbarToo from "../components/NavbarToo";
-
+import { useTranslation } from "react-i18next";
 
 function Home(){
+    const { t } = useTranslation();
+
     return(
+     
         <>
-        {/* <Navbar/> */}
         <Navbar />
+        {/* <NavbarLast/> */}
         <Hero 
             cName="hero"
             heroImg={Img1}
-            title="Le pays des hommes intègres"
-            text="Ambassade du Burkina-Faso aux Émirats Arabes Unis." 
-            buttonText="Prendre un Rendez-vous"
+            title={ t ('welcome_message') }
+            text={ t ('title_message') } 
+            buttonText={ t ('buttonText') } 
             url="/"
             btnClass="show"
         />

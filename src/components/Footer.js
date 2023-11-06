@@ -1,13 +1,15 @@
 import React from 'react';
 import "./FooterStyles.css";
+import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
+    const { t } = useTranslation();
   return (
     <div className='footer'>
         <div className='top'>
             <div>
-                <h2>Ambassade du Burkina-Faso aux Émirats Arabes Unis.</h2>
-                <p>Le Pays des hommes intègres.</p>
+                <h2>{t('footer_head')}</h2>
+                <p>{t('welcome_message')}</p>
             </div>
             <div>
                 <a href='/facebook'>
@@ -52,7 +54,7 @@ const Footer = () => {
             </div>
         </div>
         <div className='credit'>
-            <hr/>Ambassade du Burkina-Faso aux E.A.U. @2023 - <a href='www.armelrik.com'>Melrik's digital.</a>
+            <hr/>{t('footer_head')} @2023 - <a href='www.armelrik.com'>Melrik's digital.</a>
         </div>
     </div>
   )

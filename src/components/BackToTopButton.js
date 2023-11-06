@@ -37,7 +37,7 @@ function BackToTopButton() {
             // textAlign: "center",
             cursor: "pointer",
         }} 
-        onClick={scroolUp} >^
+        onClick={scroolUp} ><i class="fa-solid fa-house-user"></i>
              {/* <button >^</button> */}
         </div> )
     }</div>

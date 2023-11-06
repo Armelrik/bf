@@ -4,7 +4,7 @@ import './ButtonStyles.css';
 
 function Button() {
   return (
-    <Link to="signup">
+    <Link to="/signup">
         <button className='btn'>S'inscrire</button>
     </Link>
   )

@@ -1,0 +1,13 @@
+{
+  "welcome_to_react": "Vous etes la Bienvenue a React et a react-i18next!",
+  "app_title": "Titre de Langue",
+  "welcome_message": "Le pays des hommes intègres",
+  "title_message": "Ambassade du Burkina-Faso aux Émirats Arabes Unis.",
+  "buttonText": "Prendre un Rendez-vous",
+  "days_since_refresh": "Cela fait {{number_of_days}} depuis la mise a jour",
+  "welcome_title": "Bienvenue",
+  "welcome_from": "de la part de son Excellence Monsieur l'Ambassadeur extraordinaire et plénipotentiaire du Burkina Faso aux Émirats Arabes Unis.",
+  "footer_head": "Ambassade du Burkina-Faso aux Émirats Arabes Unis.",
+  "first_dest_head": "Le mot de l'ambassadeur",
+  "first_dest_text": "Son excellence Dr. Souleymane KONATE SEM L'ambassadeur vous souhaite la bienvenue sur son site web qui constitue l’une des portes d’entrée du Burkina Faso aux Emirats Arabes Unis. Ce site Web se veut le reflet d’un Burkina Faso épris de justice, de cohésion sociale, d’hospitalité et résolument engagé dans la défense des valeurs de démocratie et dans le combat pour la paix. Chers visiteurs, ce site est le vôtre et l’Ambassade à travers ce canal, espère combler vos attentes par la mise en ligne d’informations politiques, consulaires, économiques, touristiques, culturelles et autres. Bienvenue dans la vitrine numérique du Burkina Faso. L’Ambassade vous remercie."
+}

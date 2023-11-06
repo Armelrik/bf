@@ -6,6 +6,7 @@
     color: #fff;
     background: rgb(173, 3, 3);
     border-radius: 5px;
+    border-style: double;
     transition: 0.3s all ease-in-out;
     cursor: pointer;
 }
@@ -16,3 +17,4 @@
     border: rgb(173, 3, 3);
     border-style: double;
 }
+

@@ -18,7 +18,17 @@ export const MenuItems = [
         title : "Service",
         url : "/service",
         cName : "nav-links",
-        icon : "fa-solid fa-briefcase"
+        icon : "fa-solid fa-briefcase",
+        subMenu : [
+            {
+                subtitle : "Marketing",
+                url : "/marketing",
+            },
+            {
+                title : "Consulting",
+                url : "/consulting",
+            }
+        ]
     },
     {
         id : 4,
@@ -40,18 +50,28 @@ export const serviceDropdown = [
         id : 1,
         title : "Marketing",
         url : "/marketing",
+        menu : "Service",
         cName : "submenu-item"
     },
     {
         id : 2,
         title : "Consulting",
         url : "/consulting",
+        menu : "Service",
         cName : "submenu-item"
     },
     {
         id : 3,
         title : "Design",
         url : "/design",
+        menu : "Service",
+        cName : "submenu-item"
+    },
+    {
+        id : 3,
+        title : "CallCenter",
+        url : "/call",
+        menu : "Contact",
         cName : "submenu-item"
     },
 ]

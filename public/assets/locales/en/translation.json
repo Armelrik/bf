@@ -1,0 +1,13 @@
+{
+  "welcome_to_react": "Welcome to React and react-i18next",
+  "app_title": "Title Localized",
+  "welcome_message": "The country of bold men",
+  "title_message": "Ambassade of Burkina-Faso in the United Arabe Emirates.",
+  "buttonText": "Book an appointement",
+  "days_since_refresh": "It has been {{number_of_days}} since refresh",
+  "welcome_title": "Welcome",
+  "welcome_from": "on behalf of His Excellency the Extraordinary and Plenipotentiary Ambassador of Burkina Faso to the United Arab Emirates.",
+  "footer_head": "Embassy of Burkina Faso in the United Arab Emirates.",
+  "first_dest_head": "A word from the ambassador",
+  "first_dest_text": "His Excellency Dr. Souleymane KONATE SEM The Ambassador welcomes you to his website which constitutes one of the gateways from Burkina Faso to the United Arab Emirates. This website aims to reflect a Burkina Faso loving justice, social cohesion, hospitality and resolutely committed to defending the values of democracy and the fight for peace. Dear visitors, this site is yours and the Embassy, through this channel, hopes to meet your expectations by putting political, consular, economic, tourist, cultural and other information online. Welcome to the digital showcase of Burkina Faso. The Embassy thanks you."
+}
