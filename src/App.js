@@ -4,9 +4,10 @@ import Home from "./routes/Home";
 import About from "./routes/About";
 import Service from "./routes/Service";
 import Contact from "./routes/Contact";
-import Signup from './routes/Signup';
+import Organigrame from './routes/Organigrame';
 import BackToTopButton from './components/BackToTopButton';
 import Ambassador from './routes/Ambassador';
+import Signup from './routes/Organigrame';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/contact' element={<Contact/>} />
         <Route path='/signup' element={<Signup/>} />
         <Route path='/ambassador' element={<Ambassador/>} />
+        <Route path='/organigrame' element={<Organigrame />} />
         {/*  <Route path='/signup' element={<Signup/>} /> */}
       </Routes>
       <BackToTopButton />

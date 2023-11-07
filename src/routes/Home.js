@@ -12,7 +12,7 @@ function Home(){
     const { t } = useTranslation();
 
     return(
-     
+    
         <>
         <Navbar />
         {/* <NavbarLast/> */}
@@ -22,7 +22,7 @@ function Home(){
             title={ t ('welcome_message') }
             text={ t ('title_message') } 
             buttonText={ t ('buttonText') } 
-            url="/"
+            url="/signup"
             btnClass="show"
         />
         <Destination />
