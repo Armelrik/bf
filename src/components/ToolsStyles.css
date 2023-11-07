@@ -18,7 +18,7 @@
 
 .c-card{
     width: 22%;
-    height: 15%;
+    height: 10%;
     text-align: start;
     box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.11);
     border-radius: 7px;
@@ -27,13 +27,23 @@
 }
 
 .c-image{
-    height: 210px;
+    height: 200px;
     /* width: 80px; */
     overflow: hidden;
     border-radius: 7px;
     transition: 0.2s ease-in-out;
-    border-radius: 5px;
+    /* border-radius: 5px; */
+    
 }
 .c-image:hover{
    transform: scale(.9);
 }
+
+section.times div {
+    padding: 2px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    /* border-radius: 5px; */
+}
+

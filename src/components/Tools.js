@@ -1,7 +1,7 @@
 import React from 'react'
 import "./ToolsStyles.css"
 import Img1 from '../assets/gps.webp'
-import Img2 from '../assets/app.jpeg'
+import Img2 from '../assets/app2.jpeg'
 import Img3 from '../assets/lettre.webp'
 import {DateTime} from 'luxon';
 
@@ -40,19 +40,19 @@ const locations = document.querySelectorAll("section.times div")
                 <h4>Heure du monde</h4><br />
                 <section className='times'>
                     <div timezone="Africa/Ouagadougou" className='timesDetails'>
-                        <h4>OUAGA</h4>
+                        <h4>Ouagadougou(GMT+0)</h4>
                         <output>00:00:00</output>
                     </div>
                     <div timezone="Asia/Dubai" className='timesDetails'>
-                        <h4>Dubai</h4>
+                        <h4>Dubai(GMT+4)</h4>
                         <output>00:00:00</output>
                     </div>
                     <div timezone="Europe/Paris" className='timesDetails'>
-                        <h4>Paris</h4>
+                        <h4>Paris(GMT+1)</h4>
                         <output>00:00:00</output>
                     </div>
                     <div timezone="America/New_York" className='timesDetails'>
-                        <h4>New york</h4>
+                        <h4>New york(GMT-5)</h4>
                         <output>00:00:00</output>
                     </div>
                 </section>
