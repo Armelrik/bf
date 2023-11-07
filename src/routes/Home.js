@@ -4,11 +4,8 @@ import Hero from "../components/Hero";
 import Destination from "../components/Destination";
 import Trip from "../components/Trip";
 import Footer from "../components/Footer";
-
 import Img1 from "../assets/2.jpg";
 import Tools from "../components/Tools";
-import NavbarLast from "../components/NavbarLast";
-// import NavbarToo from "../components/NavbarToo";
 import { useTranslation } from "react-i18next";
 
 function Home(){

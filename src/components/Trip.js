@@ -18,23 +18,17 @@ function Trip() {
             <TripData 
                 image={Img1}
                 heading = "Services Passports"
-                text = "Tempor aute exercitation anim esse. Do do esse dolor sit ut pariatur enim velit. Est cillum aliquip consequat esse proident laboris officia eiusmod ut dolore.
-                Tempor aute exercitation anim esse. Do do esse dolor sit ut pariatur enim velit. Est cillum aliquip consequat esse proident laboris officia eiusmod ut dolore.
-                Tempor aute exercitation anim esse."
+                text = "Vous serez rediriger vers le site de visa du Burkina ou vous pourez faire votre demande en toute tranquilitte"
             />
             <TripData 
                 image={Img2}
                 heading = "Services Tourisme"
-                text = "Tempor aute exercitation anim esse. Do do esse dolor sit ut pariatur enim velit. Est cillum aliquip consequat esse proident laboris officia eiusmod ut dolore.
-                Tempor aute exercitation anim esse. Do do esse dolor sit ut pariatur enim velit. Est cillum aliquip consequat esse proident laboris officia eiusmod ut dolore.
-                Tempor aute exercitation anim esse."
+                text = "Tempor aute exercitation anim esse. Do do esse dolor sit ut pariatur enim velit. Est cillum aliquip consequat."
             />
             <TripData 
                 image={Img3}
                 heading = "Services assainissement"
-                text = "Tempor aute exercitation anim esse. Do do esse dolor sit ut pariatur enim velit. Est cillum aliquip consequat esse proident laboris officia eiusmod ut dolore.
-                Tempor aute exercitation anim esse. Do do esse dolor sit ut pariatur enim velit. Est cillum aliquip consequat esse proident laboris officia eiusmod ut dolore.
-                Tempor aute exercitation anim esse."
+                text = "Tempor aute exercitation anim esse. Do do esse dolor sit ut pariatur."
             />
         </div>
     </div>

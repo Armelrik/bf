@@ -26,7 +26,7 @@ const Footer = () => {
         <div className='bottom'>
             <div>
                 <h4>Ambassade</h4>
-                <a href='/'>Ambassadeur</a>
+                <a href='/ambassador'>Ambassadeur</a>
                 <a href='/'>Charte</a>
                 <a href='/'>Fériés</a>
                 <a href='/'>Galeries</a>
@@ -50,7 +50,7 @@ const Footer = () => {
                 <a href='/'>Support</a>
                 <a href='/'>Plan-du-site</a>
                 <a href='/'>Handicapes</a>
-                <a href='/'>Contacts</a>
+                <a href='/contact'>Contacts</a>
             </div>
         </div>
         <div className='credit'>
