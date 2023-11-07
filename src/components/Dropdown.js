@@ -1,12 +1,12 @@
 import React from 'react'
-import { serviceDropdown } from './MenuItems';
 import { Link } from 'react-router-dom';
+import { MenuItems } from './MenuItems';
 
 function Dropdown() {
 
   return (
     <>
-       {serviceDropdown.map((item, index) => {
+       {MenuItems.map((item, index) => {
         return(
             <div key={index}>
                 <Link to={item.url}>{item.title}</Link>

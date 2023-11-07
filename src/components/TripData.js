@@ -9,7 +9,6 @@ function TripData(props) {
         </div>
         <h4>{props.heading}</h4>
         <p>{props.text}</p>
-
     </div>
   )
 }

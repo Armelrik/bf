@@ -1,20 +1,31 @@
 
 
-.about-container{
+.ambassador-container{
     margin: 4rem 6rem;
     text-align: start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 4rem;
 }
 
-.about-container h1{
-    padding-bottom: 1rem;
+.ambassador-container h1{
+    padding: 1rem;
 }
 
-.about-container p{
+.ambassador-container img{
+    margin: 2rem 1rem;
+    width: 450px;
+    height: 350px;
+    border-radius: 7px;
+}
+
+.ambassador-container p{
     padding-bottom: 2rem;
 }
 
 @media screen and (max-width: 850px) {
-    .about-container{
+    .ambassador-container{
         margin: 4rem 2rem;
     }
 }

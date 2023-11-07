@@ -1,8 +1,8 @@
 import './NavbarStyles.css';
 import { Component, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { MenuItems } from './MenuItems';
-import { serviceDropdown } from './MenuItems';
+import { MenuItems, actualsDropdown, ambassadeDropdown, cooperationDropdown } from './MenuItems';
+import { consulatDropdown } from './MenuItems';
 import Img from '../assets/bf.png';
 import Button from './Button';
 import Dropdown from './Dropdown';
@@ -46,49 +46,16 @@ class Navbar extends Component {
             </button>
           ))}
         </div>
-
-        {/* <div className='langDropdown'>
-          <div className='dropdown'>
-            <button className='toggle' type='button'
-            id='dropdownMenuButton'>
-              Dropdown menu
-            </button>
-            <ul className='dropdown-menu'>
-              {languages.map(({ code, name, country_code }) => (
-                <li key={country_code}>
-                  <button className='dropdown-item'>
-                    <span className={`flag-icon flag-icon-${country_code}`}></span>
-                    {name}
-                  </button>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div> */}
         
         <div className="menu-icons" onClick={this.handledClick}>
           <i className={this.state.clicked ? "fas fa-times"
             : "fas fa-bars" }></i>
         </div>
 
-         {/* <ul className={this.state.clicked ? "nav-menu active" :
-            "nav-menu" }>
-          { MenuItems.map((item, index) => {
-            return(
-              <li key={index}>
-                <Link className={item.cName} to={item.url}>
-                  <i class={item.icon}></i>{item.title}
-                </Link>
-              </li>
-            );
-          })}
-          <Button />
-        </ul> */}
-
         <div className={this.state.clicked ? "nav-menu active" : "nav-menu" }>
       
           {MenuItems.map((item,index) => {
-            if(item.title === "Service"){
+            if(item.title === "Ambassade"){
             return (
               <div key={index} className='dropdown'>
               <button  className='dropbtn'>
@@ -96,32 +63,77 @@ class Navbar extends Component {
               </button>
               <div  className='dropdown-content'>
                   {/* <Link to='/'>{item.title}</Link> */}
-                  <Dropdown />
+                  {ambassadeDropdown.map((item, index) => {
+                    return(
+                      <div key={index}>
+                        <Link to={item.url}>{item.title}</Link>
+                      </div>
+                      )
+                  })}
               </div>
             </div>
             )}
-            if(item.title === "Contact"){
+            if(item.title === "Consulat"){
             return (
               <div key={index} className='dropdown'>
-              <button  className='dropbtn' to={item.url}>
+              <button  className='dropbtn'>
                 <i className={item.icon}></i>{item.title}
               </button>
               <div  className='dropdown-content'>
-                  {/* <Link to='/'>{item.title}</Link> */}
-                  <Dropdown />
+                  {consulatDropdown.map((item, index) => {
+                    return(
+                      <div key={index}>
+                        <Link to={item.url}>{item.title}</Link>
+                      </div>
+                      )
+                  })}
               </div>
             </div>
             )}
+            if(item.title === "Coopération"){
             return (
               <div key={index} className='dropdown'>
-              <button  className='dropbtn' to={item.url}>
+              <button  className='dropbtn'>
                 <i className={item.icon}></i>{item.title}
-              </button></div>
+              </button>
+              <div  className='dropdown-content'>
+                  {cooperationDropdown.map((item, index) => {
+                    return(
+                      <div key={index}>
+                        <Link to={item.url}>{item.title}</Link>
+                      </div>
+                      )
+                  })}
+              </div>
+            </div>
+            )}
+            if(item.title === "Actualités"){
+            return (
+              <div key={index} className='dropdown'>
+              <button  className='dropbtn'>
+                <i className={item.icon}></i>{item.title}
+              </button>
+              <div  className='dropdown-content'>
+                  {actualsDropdown.map((item, index) => {
+                    return(
+                      <div key={index}>
+                        <Link to={item.url}>{item.title}</Link>
+                      </div>
+                      )
+                  })}
+              </div>
+            </div>
+            )}
+            
+            return (
+              <div key={index} className='dropdown'>
+              <Link  className='nav-links' to={item.url}>
+                <i className={item.icon}></i>{item.title}
+              </Link></div>
             )
           }
           )}
-         
-         
+
           {/* <button className='dropbtn'>Dropdown</button> */}
           {/* <div className='dropdown-content'>
             <Link to='/'>Link1</Link>
@@ -132,7 +144,6 @@ class Navbar extends Component {
         </div>
         
       </nav> 
-        {/* <Dropdown /> */}
       </>
       
 

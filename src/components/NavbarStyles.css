@@ -38,7 +38,7 @@
 
 .butLang {
     margin-right: 5px;
-    font-size: 1rem;
+    font-size: .6rem;
 }
 
 .nav-menu{
@@ -52,14 +52,14 @@
 .nav-links{
     text-decoration: none;
     color: #222;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
-    padding: 0.7rem 1rem;
+    padding: 0.7rem .3rem;
     white-space: nowrap;
 }
 
 .nav-links i{
-    padding-right: 10px;
+    padding-right: 5px;
 }
 
 .nav-links:hover{
@@ -98,12 +98,12 @@ button:hover{
     background-color: #fff;
     min-width: 115px;
     padding: 10px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     border: none;
     text-decoration: none;
 }
 
-.dropbtn i {
+.dropbtn i{
     padding-right: 10px;
 }
 
