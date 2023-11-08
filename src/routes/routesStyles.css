@@ -1,0 +1,53 @@
+
+.galery {
+    margin: 4rem 6rem;
+}
+
+.galery h1{
+    margin-top: 2rem;
+    margin-left: 4rem;
+    text-align: left;
+    text-decoration:wavy;
+}
+.slide {
+    height: 50vh;
+    display: flex;
+    /* margin: 0; */
+    /* background: linear-gradient(135deg, #295fd5, #9d8ce0); */
+    align-items: center;
+    justify-content: center;
+    /* user-select: none; */
+  }
+
+  .group {
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  .item {
+    width: 15vh;
+    height: 40vh;
+    background-position: center;
+    background-size: 40vh;
+    margin: 1vw;
+    border-radius: 3vw;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width:850px) {
+    .galery .slide{
+        margin: 4rem 2rem;
+    }
+
+    .toolscard{
+        flex-direction: column;
+    }
+
+    .c-card{
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    
+}

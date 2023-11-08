@@ -8,6 +8,7 @@ import Organigrame from './routes/Organigrame';
 import BackToTopButton from './components/BackToTopButton';
 import Ambassador from './routes/Ambassador';
 import Signup from './routes/Organigrame';
+import Galery from './routes/Galery';
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
         <Route path='/signup' element={<Signup/>} />
         <Route path='/ambassador' element={<Ambassador/>} />
         <Route path='/organigrame' element={<Organigrame />} />
+        <Route path='/galery' element={<Galery />} />
+
         {/*  <Route path='/signup' element={<Signup/>} /> */}
       </Routes>
       <BackToTopButton />
