@@ -5,6 +5,7 @@ import Img2 from '../assets/app2.jpeg'
 import Img3 from '../assets/lettre.webp'
 import {DateTime} from 'luxon';
 import { useTranslation } from 'react-i18next'
+import { init } from 'events'
 
 const Tools = () => {
     const { t } = useTranslation();
@@ -19,8 +20,9 @@ const locations = document.querySelectorAll("section.times div")
         })
 
     }
+updateTimes()
 
-    updateTimes()
+
     setInterval( function () {
         updateTimes()
     }, (1000));

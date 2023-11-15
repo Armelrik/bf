@@ -38,9 +38,9 @@ img{
 }
 
 .hero-text p{
-    font-size: 1.3rem;
+    font-size: 2rem;
     color: #fff;
-    padding: 0.5rem 0 2rem 0;
+    padding: 2rem 0 2rem 0;
 
 }
 
@@ -62,7 +62,7 @@ img{
     border-radius: 6px;
     font-size: 1.1rem;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     color: #fff;
 }
 

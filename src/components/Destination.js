@@ -5,9 +5,8 @@ import Img1 from "../assets/istockphoto-467228674-1024x1024.jpg";
 import Img2 from "../assets/istockphoto-1301083980-1024x1024.jpg";
 import Img3 from '../assets/istockphoto-1288874565-1024x1024.jpg';
 import Img4 from '../assets/istockphoto-515599896-1024x1024.jpg';
-import Img5 from "../assets/1.jpg";
-import Img6 from "../assets/ambasador.jpeg";
-import i18next from 'i18next';
+import Img5 from "../assets/flags.png";
+import Img6 from "../assets/amb.jpeg";
 import { useTranslation } from "react-i18next";
 
 const Destination = () => {
@@ -22,8 +21,8 @@ const Destination = () => {
             className="first-des"
             heading={t('first_dest_head')}
             text={t('first_dest_text')}
-            img1={Img6}
-            img2={Img5}
+            img1={Img5}
+            img2={Img6}
         />
         <DestinationData 
             className="first-des-reverse"
