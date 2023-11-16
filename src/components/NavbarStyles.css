@@ -29,10 +29,11 @@
 }
 
 .langDiv {
-    position: absolute;
+    /* position: absolute; */
+    /* left: 10px; */
     display: flex;
     justify-content: start;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     font-size: smaller;
 }
 
@@ -136,7 +137,7 @@ button:hover{
 @media screen and (max-width:850px) {
 
     .langDiv{
-        display: none;
+        /* display: none; */
     }
 
     .NavbarItems{

@@ -21,8 +21,8 @@ const Destination = () => {
             className="first-des"
             heading={t('first_dest_head')}
             text={t('first_dest_text')}
-            img1={Img5}
-            img2={Img6}
+            img1={Img6}
+            img2={Img5}
         />
         <DestinationData 
             className="first-des-reverse"
