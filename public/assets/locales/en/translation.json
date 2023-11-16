@@ -2,7 +2,7 @@
   "welcome_to_react": "Welcome to React and react-i18next",
   "app_title": "Title Localized",
   "welcome_message": "Le pays des hommes intègres",
-  "title_message": "Ambassade of Burkina-Faso in the United Arabe Emirates.",
+  "title_message": "Embassy of Burkina-Faso in the United Arabe Emirates.",
   "buttonText": "Book an appointement",
   "days_since_refresh": "It has been {{number_of_days}} since refresh",
   "welcome_title": "Welcome",
