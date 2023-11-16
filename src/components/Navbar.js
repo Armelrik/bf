@@ -32,7 +32,7 @@ class Navbar extends Component {
     return(
       <>
         <nav className="NavbarItems">
-         <Link to="/" className='navbar-logo'>
+         <Link to="/ambassador" className='navbar-logo'>
           <img src={Img} alt='logo'/>
         </Link>
 

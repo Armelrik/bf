@@ -144,7 +144,7 @@ button:hover{
         z-index: 99;
     }
 
-    .nav-menu {
+    .nav-menu, .langDiv {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
