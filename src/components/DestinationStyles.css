@@ -27,12 +27,13 @@
 
 .des-text{
     width: 45%;
-    text-align: start;
+    text-align: justify;
     font-size: 1.1rem;
 }
 
 .des-text h2{
     padding-bottom: 1rem;
+    text-align: justify;
 }
 
 .image{
@@ -55,7 +56,7 @@
 .image img{
     width: 49%;
     height: 350px;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 6px;
     box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
 }

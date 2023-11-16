@@ -36,14 +36,7 @@ class Navbar extends Component {
           <img src={Img} alt='logo'/>
         </Link>
 
-        <div className='langDiv'>
-          {languages.map(({code,name, country_code}) => (
-            <button type='button' className='butLang' key={country_code}
-             onClick={() => i18next.changeLanguage(code)}>
-              <span className={`flag-icon flag-icon-${country_code}`}></span><br/>{name}
-            </button>
-          ))}
-        </div>
+        
         
         <div className="menu-icons" onClick={this.handledClick}>
           <i className={this.state.clicked ? "fas fa-times"
@@ -52,6 +45,15 @@ class Navbar extends Component {
 
         <div className={this.state.clicked ? "nav-menu active" : "nav-menu" }>
       
+      <div className='langDiv'>
+          {languages.map(({code,name, country_code}) => (
+            <button type='button' className='butLang' key={country_code}
+             onClick={() => i18next.changeLanguage(code)}>
+              <span className={`flag-icon flag-icon-${country_code}`}></span><br/>{name}
+            </button>
+          ))}
+        </div>
+        
           {MenuItems.map((item,index) => {
             if(item.title === "Ambassade"){
             return (
