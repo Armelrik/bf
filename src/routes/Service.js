@@ -25,7 +25,7 @@ function Service() {
       <div className='trip'>
         <h1>Heures de Service </h1>
         <p>Le Service consulaire de l’ambassade reçoit les usagers et les dossiers
-           de 09h00 à 14h00 tous les ouvrables. 
+           de 09h00 à 16h00 tous les ouvrables. 
         </p>
 
         <div className='tripcard'>

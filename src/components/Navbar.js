@@ -38,7 +38,7 @@ class Navbar extends Component {
 
         <div className='langDiv'>
           {languages.map(({code,name, country_code}) => (
-            <button className='butLang' key={country_code}
+            <button type='button' className='butLang' key={country_code}
              onClick={() => i18next.changeLanguage(code)}>
               <span className={`flag-icon flag-icon-${country_code}`}></span><br/>{name}
             </button>

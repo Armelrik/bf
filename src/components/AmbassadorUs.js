@@ -8,7 +8,7 @@ function AmbassadorUs() {
   return (
     <div className='ambassador-container'>
       <img src={Img1} alt='ambassador' />
-      <div>
+      <div className='ambassador-text'>
         <h1>{t('ambassador_head')}</h1>
         <p>{t('ambassador_text')}</p>
       </div>

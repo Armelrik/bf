@@ -25,6 +25,17 @@ const Footer = () => {
         </div>
         <div className='bottom'>
             <div>
+                <h4>Adress</h4>
+                <div>
+                <span>15 Al Khawarizmi Street Al Mushrif</span>
+                <span>P.O. Box 5928 Abu Dhabi - United Arab Emirates</span>
+                <span>Phone: (+971) 2 447 8476</span>
+                <span>Fax: (+971) 2 447 6778</span>
+                <span>E-mail: amba.abudhabi@diplomatie.gov.bf</span>
+                </div>
+                
+            </div>
+            <div>
                 <h4>Ambassade</h4>
                 <a href='/ambassador'>Ambassadeur</a>
                 <a href='/'>Charte</a>
@@ -38,13 +49,13 @@ const Footer = () => {
                 <a href='/'>Certificats</a>
                 <a href='/'>Autres</a>
             </div>
-            <div>
+            {/* <div>
                 <h4>Communautées</h4>
                 <a href='/'>Pays</a>
                 <a href='/'>Villes</a>
                 <a href='/'>Provinces</a>
                 <a href='/'>Actualités</a>
-            </div>
+            </div> */}
             <div>
                 <h4>Aide</h4>
                 <a href='/'>Support</a>

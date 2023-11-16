@@ -16,9 +16,7 @@ function Signup (){
             btnClass="hide"
         />
         <div className=''>
-            <img src={Img2} alt='no needed'>
-
-            </img>
+            <img src={Img2} alt='needed'/>
         </div>
         <Footer />
     </>

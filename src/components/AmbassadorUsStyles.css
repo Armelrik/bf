@@ -11,6 +11,7 @@
 
 .ambassador-container h1{
     padding: 1rem;
+    margin-left: 50px;
 }
 
 .ambassador-container img{
@@ -22,11 +23,26 @@
 
 .ambassador-container p{
     padding-bottom: 2rem;
+    margin-left: 50px;
 }
 
 @media screen and (max-width: 850px) {
     .ambassador-container{
         margin: 4rem 2rem;
+        display: flex;
+        flex-direction: column;
+        margin-top: 2.5em;
+        object-fit: contain;
+    }
+
+    .ambassador-text{
+        width: 100%;
+    }
+
+    .ambassador-container img{
+        height: 250px;
+        width: 100%;
+        margin: 1.8rem 0;
     }
 }
 
