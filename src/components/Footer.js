@@ -31,7 +31,7 @@ const Footer = () => {
                 <span>P.O. Box 5928 Abu Dhabi - United Arab Emirates</span>
                 <span>Phone: (+971) 2 447 8476</span>
                 <span>Fax: (+971) 2 447 6778</span>
-                <span>E-mail: amba.abudhabi@diplomatie.gov.bf</span>
+                <span>Mail: amba.abudhabi@diplomatie.gov.bf</span>
                 </div>
                 
             </div>
