@@ -5,9 +5,13 @@
 
 .galery h1{
     margin-top: 2rem;
-    margin-left: 4rem;
-    text-align: left;
+    /* margin-left: 4rem; */
+    text-align: center;
     text-decoration:wavy;
+}
+
+.galery p{
+  text-align: center;
 }
 .slide {
     height: 50vh;
