@@ -4,6 +4,16 @@
     color: #2a2a2a;
 }
 
+.form_info{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.form_info span{
+    padding: 2% 20%;
+}
+
 .form-container form{
     padding-top: 3rem;
     display: flex;

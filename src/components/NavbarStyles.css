@@ -137,7 +137,7 @@ button:hover{
 .dropdown:hover .dropdown-content{display: block;}
 .dropdown:hover .dropbtn{background-color: #1b5f05;}
 
-@media screen and (max-width:850px) {
+@media screen and (max-width:1000px) {
 
     .langDiv{
         /* display: none; */

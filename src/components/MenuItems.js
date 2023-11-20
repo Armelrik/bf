@@ -92,14 +92,14 @@ export const consulatDropdown = [
     {
         id : 2,
         title : "Visas",
-        url : "/vivas",
+        url : "/visas",
         menu : "Consulat",
         cName : "submenu-item"
     },
     {
         id : 3,
         title : "Carte consulaire",
-        url : "/cConsul",
+        url : "/consulCard",
         menu : "Consulat",
         cName : "submenu-item"
     },

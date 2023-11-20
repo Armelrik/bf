@@ -5,19 +5,27 @@ import React from 'react';
 function ContactForm() {
   return (
     <div className='form-container'>
-        <h1>Nos coordonnées</h1><br/>
-            <p>Addresse: 7, Rue Bassin, Cite, BP.6484 10101, Ouaga, BFA</p> 
-            <p>Tél : +226 537 675 512 Fax : +226 537 675 517 </p>
-            <p>Horaire : Lundi au Vendredi de 9h à 14h</p>
-            <br/>
+        <h1>Nos Horaires</h1>
+          <span>Du lundi au vendredi</span>
+          <span>De 9h a 16h</span>
+          <span>Fermée samedi et dimanche</span>
+
+        <h1>Nos coordonnées</h1>
+        <div className='form_info'>
+          <span>15 Al Khawarizmi Street Al Mushrif</span>
+          <span>P.O.B. 5928 Abu Dhabi-United Arab Emirates</span>
+          <span>Phone: (+971) 2 447 8476</span>
+          <span>Fax: (+971) 2 447 6778</span>
+          <span>Mail: amba.abudhabi@diplomatie.gov.bf</span>
+        </div>
         <h1>Nous envoyer un message!</h1>
-        <form>
+          <form>
             <input placeholder='Nom' />
             <input placeholder='Email' />
             <input placeholder='Objet' />
-            <textarea placeholder='Votre Requette' rows="5"></textarea>
+            <textarea placeholder='Votre Requette' rows="6"></textarea>
             <button>Envoyer votre message</button>
-        </form>
+          </form>
     </div>
   )
 }

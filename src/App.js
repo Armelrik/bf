@@ -9,6 +9,9 @@ import BackToTopButton from './components/BackToTopButton';
 import Ambassador from './routes/Ambassador';
 import Signup from './routes/Signup';
 import Galery from './routes/Galery';
+import Personnel from './routes/Personnel';
+import ConsulCard from './routes/ConsulCard';
+import Visas from './routes/Visas';
 
 function App() {
   return (
@@ -16,13 +19,16 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/about' element={<About/>} />
-        <Route path='/service' element={<Service/>} />
+        <Route path='/services' element={<Service/>} />
         <Route path='/contact' element={<Contact/>} />
         <Route path='/signup' element={<Signup/>} />
         <Route path='/ambassador' element={<Ambassador/>} />
         <Route path='/organigrame' element={<Organigrame />} />
         <Route path='/galery' element={<Galery />} />
          <Route path='/signup' element={<Signup/>} />
+         <Route path='/personnel' element={<Personnel />} />
+         <Route path='/visas' element={<Visas />} />
+         <Route path='/ConsulCard' element={<ConsulCard />} />
       </Routes>
       <BackToTopButton />
     </div>

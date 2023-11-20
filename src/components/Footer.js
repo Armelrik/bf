@@ -28,15 +28,14 @@ const Footer = () => {
                 <h4>Adress</h4>
                 <div>
                 <span>15 Al Khawarizmi Street Al Mushrif</span>
-                <span>P.O. Box 5928 Abu Dhabi - United Arab Emirates</span>
+                <span>P.O.B. 5928 Abu Dhabi-United Arab Emirates</span>
                 <span>Phone: (+971) 2 447 8476</span>
                 <span>Fax: (+971) 2 447 6778</span>
                 <span>Mail: amba.abudhabi@diplomatie.gov.bf</span>
                 </div>
-                
             </div>
             <div>
-                <h4>Ambassade</h4>
+                <h4>Embassy</h4>
                 <a href='/ambassador'>Ambassadeur</a>
                 <a href='/'>Charte</a>
                 <a href='/'>Fériés</a>
@@ -44,10 +43,10 @@ const Footer = () => {
             </div>
             <div>
                 <h4>Consulat</h4>
-                <a href='/'>Visas</a>
-                <a href='/'>Passeport</a>
-                <a href='/'>Certificats</a>
-                <a href='/'>Autres</a>
+                <a href='/visas'>Visas</a>
+                <a href='/passport'>Passeport</a>
+                <a href='/certificates'>Certificats</a>
+                <a href='/others'>Autres</a>
             </div>
             {/* <div>
                 <h4>Communautées</h4>
@@ -57,7 +56,7 @@ const Footer = () => {
                 <a href='/'>Actualités</a>
             </div> */}
             <div>
-                <h4>Aide</h4>
+                <h4>Help</h4>
                 <a href='/'>Support</a>
                 <a href='/'>Plan-du-site</a>
                 <a href='/'>Handicapes</a>

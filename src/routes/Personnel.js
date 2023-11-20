@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Footer from '../components/Footer';
 import Img1 from "../assets/istockphoto-496359874-1024x1024.jpg";
-import OrgData from '../components/OrgData';
+import PersonnelData from '../components/PersonnelData';
 
 
 function Signup (){
@@ -13,10 +13,10 @@ function Signup (){
         <Hero 
             cName="hero-mid"
             heroImg={Img1}
-            title="Organigramme"
+            title="Personnel"
             btnClass="hide"
         />
-        <OrgData />
+        <PersonnelData />
         <Footer />
     </>
   )
