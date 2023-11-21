@@ -113,14 +113,14 @@ export const consulatDropdown = [
     {
         id : 5,
         title : "Actes et déclarations",
-        url : "/actes",
+        url : "/acts",
         menu : "Consulat",
         cName : "submenu-item"
     },
     {
         id : 6,
         title : "Certificat",
-        url : "/passport",
+        url : "/certificate",
         menu : "Consulat",
         cName : "submenu-item"
     },

@@ -62,8 +62,8 @@ const Tools = () => {
           <div className="c-image">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3632.481820206254!2d54.39668801223706!3d24.43406337811937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e685044594f4d%3A0xbc173831495f7246!2zMTUg2KfZhNiu2Y7ZiNmO2KfYsdmQ2LLZhdmKIC0gQWwgTXVzaHJpZiAtIEFidSBEaGFiaSAtIFVuaXRlZCBBcmFiIEVtaXJhdGVz!5e0!3m2!1sen!2sgh!4v1700465923955!5m2!1sen!2sgh"
-              width="600"
-              height="450"
+              width="1000"
+              height="650"
               style={{border:"0"}}
               allowfullscreen=""
               loading="lazy"

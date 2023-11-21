@@ -18,7 +18,23 @@ const ConsulCardData = () => {
               <li>{t('consulCard_text_4')}</li>
               <li>{t('consulCard_text_5')}</li>
           </ul>
-          <p>{t('consulCard_text_6')}</p>
+          
+          <h1>{t('consulCard_text_6')}</h1>
+          <ul>
+              <li>{t('consulCard_text_7')}</li>
+              <li>{t('consulCard_text_8')}</li>
+              <li>{t('consulCard_text_9')}</li>
+          </ul>
+
+          <h1>{t('consulCard_text_10')}</h1>
+          <ul>
+              <li>{t('consulCard_text_11')}</li>
+              <li>{t('consulCard_text_12')}</li>
+              <li>{t('consulCard_text_13')}</li>
+              <li>{t('consulCard_text_14')}</li>
+              <li>{t('consulCard_text_15')}</li>
+          </ul>
+          <p>{t('consulCard_text_16')}</p>
         </div>
           
       </div>

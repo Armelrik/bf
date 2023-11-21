@@ -1,37 +1,37 @@
-.consulCard-container{
+.passport-container{
     margin: 4rem 6rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.consulCard-text{
-    /* padding-bottom: 1rem; */
-    padding: 1rem 1rem;
+.passport-text{
+    padding-bottom: 1rem;
+    padding: 2rem;
 }
-.consulCard-text h1{
-    padding: 2rem 0rem;
+.passport-text h1{
+    padding-bottom: 1rem;
 }
 
-.consulCard-text p{
-    padding: 1rem 0;
+.passport-text p{
+    padding: 2rem 0;
     text-align: justify;
 }
 
-.consulCard-text ul {
+.passport-text ul {
     text-align: justify;
 }
 
-.consulCard-container img{
+.passport-container img{
     margin: 2rem 1rem;
     width: 450px;
     height: 350px;
     border-radius: 7px;
-    object-fit:scale-down;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 850px) {
-    .consulCard-container{
+    .passport-container{
         margin: 4rem 2rem;
         display: flex;
         flex-direction: column;
@@ -39,11 +39,11 @@
         object-fit: contain;
     }
 
-    .consulCard-text{
+    .passport-text{
         width: 100%;
     }
 
-    .visas-container img{
+    .passport-container img{
         height: 250px;
         width: 100%;
         margin: 1.8rem 0;

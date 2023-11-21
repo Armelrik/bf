@@ -12,6 +12,7 @@ import Galery from './routes/Galery';
 import Personnel from './routes/Personnel';
 import ConsulCard from './routes/ConsulCard';
 import Visas from './routes/Visas';
+import Passport from './routes/Passport';
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
          <Route path='/signup' element={<Signup/>} />
          <Route path='/personnel' element={<Personnel />} />
          <Route path='/visas' element={<Visas />} />
-         <Route path='/ConsulCard' element={<ConsulCard />} />
+         <Route path='/consulCard' element={<ConsulCard />} />
+         <Route path='/passport' element={<Passport />} />
       </Routes>
       <BackToTopButton />
     </div>

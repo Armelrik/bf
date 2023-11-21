@@ -2,16 +2,18 @@
 .form-container{
     margin: 4rem 6rem;
     color: #2a2a2a;
+    display: flex;
+    flex-direction: column;
 }
 
 .form_info{
     display: flex;
     flex-direction: column;
-    text-align: justify;
+    /* text-align: left; */
 }
 
-.form_info span{
-    padding: 2% 20%;
+.form-container span{
+    padding: 1rem 0rem;
 }
 
 .form-container form{
