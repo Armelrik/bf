@@ -131,13 +131,6 @@ class Navbar extends Component {
             )
           }
           )}
-
-          {/* <button className='dropbtn'>Dropdown</button> */}
-          {/* <div className='dropdown-content'>
-            <Link to='/'>Link1</Link>
-            <Link to='/'>Link2</Link>
-            <Link to='/'>Link3</Link>
-          </div> */}
           
         </div>
         

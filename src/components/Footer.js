@@ -29,14 +29,15 @@ const Footer = () => {
                 <div>
                 <span>15 Al Khawarizmi Street Al Mushrif</span>
                 <span>P.O.B. 5928 Abu Dhabi-United Arab Emirates</span>
-                <span>Phone: (+971) 2 447 8476</span>
-                <span>Fax: (+971) 2 447 6778</span>
+                <span>Phone: (+971) 2 447 8476 | Fax: (+971) 2 447 6778</span>
                 <span>Mail: amba.abudhabi@diplomatie.gov.bf</span>
+                <span>Ouvert du lundi au Jeudi de 9h a 16h</span>
+                <span>Le vendredi de 9h a 12h</span>
                 </div>
             </div>
             <div>
                 <h4>Embassy</h4>
-                <a href='/ambassador'>Ambassadeur</a>
+                {/* <a href='/ambassador'>Ambassadeur</a> */}
                 <a href='/'>Charte</a>
                 <a href='/'>Fériés</a>
                 <a href='/'>Galeries</a>
@@ -45,8 +46,8 @@ const Footer = () => {
                 <h4>Consulat</h4>
                 <a href='/visas'>Visas</a>
                 <a href='/passport'>Passeport</a>
-                <a href='/certificates'>Certificats</a>
-                <a href='/others'>Autres</a>
+                <a href='/certificate'>Certificates</a>
+                <a href='/otherDoc'>Autres</a>
             </div>
             {/* <div>
                 <h4>Communautées</h4>
@@ -64,7 +65,7 @@ const Footer = () => {
             </div>
         </div>
         <div className='credit'>
-            <hr/>{t('footer_head')} @2023 - <a href='www.armelrik.com'>Melrik's digital.</a>
+            <hr/>{t('footer_head')} @2024 - <a href='www.armelrik.com'>Melrik's digital.</a>
         </div>
     </div>
   )

@@ -7,7 +7,7 @@ import VisasData from '../components/VisasData';
 import { useTranslation } from 'react-i18next';
 
 
-function Visas (){
+function Acts (){
   const { t } = useTranslation();
   return (
     <>
@@ -26,4 +26,4 @@ function Visas (){
   )
 }
 
-export default Visas;
+export default Acts;

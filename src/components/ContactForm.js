@@ -6,8 +6,8 @@ function ContactForm() {
   return (
     <div className='form-container'>
         <h1>Nos Horaires</h1>
-          <span>Nous sommes ouvert du lundi au vendredi</span>
-          <span>De 9h a 16h</span>
+          <span>Nous sommes ouvert du lundi au Jeudi de 9h a 16h</span>
+          <span>Le vendredi de 9h a 12h</span>
           <span>Fermée samedi et dimanche</span>
 
         <h1>Nos coordonnées</h1>

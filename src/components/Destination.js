@@ -15,7 +15,7 @@ const Destination = () => {
     <div className='destination'>
         <h1>Neywaogo - Fofo - Aw danse</h1>
         <h2>{ t ('welcome_title') }</h2>
-        <p>{t('welcome_from')}</p>
+        {/* <p>{t('welcome_from')}</p> */}
 
         <DestinationData 
             className="first-des"

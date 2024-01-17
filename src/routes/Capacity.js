@@ -7,7 +7,7 @@ import VisasData from '../components/VisasData';
 import { useTranslation } from 'react-i18next';
 
 
-function Visas (){
+function Capacity (){
   const { t } = useTranslation();
   return (
     <>
@@ -15,7 +15,7 @@ function Visas (){
         <Hero 
             cName="hero-mid"
             heroImg={Img1}
-            title="Visa pour le Burkina-faso"
+            title="Capacite matrimoniale"
             buttonText={ t ('buttonText') } 
             url="/signup"
             btnClass="show"
@@ -26,4 +26,4 @@ function Visas (){
   )
 }
 
-export default Visas;
+export default Capacity;

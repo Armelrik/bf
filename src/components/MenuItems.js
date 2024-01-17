@@ -44,13 +44,13 @@ export const MenuItems = [
 ];
 
 export const ambassadeDropdown = [
-    {
-        id : 1,
-        title : "Ambassadeur",
-        url : "/ambassador",
-        menu : "Ambassade",
-        cName : "submenu-item"
-    },
+    // {
+    //     id : 1,
+    //     title : "Ambassadeur",
+    //     url : "/ambassador",
+    //     menu : "Ambassade",
+    //     cName : "submenu-item"
+    // },
     {
         id : 2,
         title : "Organigramme",
@@ -65,13 +65,13 @@ export const ambassadeDropdown = [
         menu : "Ambassade",
         cName : "submenu-item"
     },
-    {
-        id : 4,
-        title : "Personnel",
-        url : "/personnel",
-        menu : "Ambassade",
-        cName : "submenu-item"
-    },
+    // {
+    //     id : 4,
+    //     title : "Personnel",
+    //     url : "/personnel",
+    //     menu : "Ambassade",
+    //     cName : "submenu-item"
+    // },
     {
         id : 5,
         title : "Galerie",
@@ -127,14 +127,14 @@ export const consulatDropdown = [
     {
         id : 7,
         title : "Laissez passer",
-        url : "/passport",
+        url : "/letpass",
         menu : "Consulat",
         cName : "submenu-item"
     },
     {
         id : 8,
         title : "Capacité matrimoniale",
-        url : "/passport",
+        url : "/capacity",
         menu : "Consulat",
         cName : "submenu-item"
     },
@@ -151,14 +151,14 @@ export const cooperationDropdown = [
     {
         id : 1,
         title : "Coopération",
-        url : "/ambassador",
+        url : "https://www.mae.gov.bf/",
         menu : "Coopération",
         cName : "submenu-item"
     },
     {
         id : 2,
         title : "Investir",
-        url : "/investir",
+        url : "https://www.investburkina.com/",
         menu : "Coopération",
         cName : "submenu-item"
     },
@@ -176,7 +176,7 @@ export const actualsDropdown = [
     {
         id : 2,
         title : "Burkina-Faso",
-        url : "/actualsBF",
+        url : "/about",
         menu : "Actualités",
         cName : "submenu-item"
     },

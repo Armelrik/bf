@@ -13,32 +13,32 @@ export class OrgData extends Component {
 
     return (
       <div className='OrgData'>
-        <h1>Une organisation structuree pour vous servir</h1>
+        <h1>Une organisation structuree pour vous servire</h1>
 
         <div className='tree'>
             <ul>
                 <li><Link to="/ambassador" className='amb_col'><img src={Img4} alt=''/><span>Ambassadeur</span></Link>
-                <h3 className='float'><span>Protocole</span></h3>
+                {/* <h3 className='float'><span>Protocole</span></h3> */}
                     <ul>
                         <li><Link to="#"><img src={Img1} alt=''/><span>Secretariat particulier</span></Link></li>
                         {/* <li><Link to="#"><img src={Img2} alt=''/><span>Communication et relations publiques</span></Link></li> */}
 
                         <li><Link to="#"><img src={Img1} alt=''/><span>Premier conseiller</span></Link>
                             <ul>
-                                <li><Link to="#"><img src={Img2} alt=''/><span>Mission militaire et de securite</span></Link>
-                                    <ul>
+                                <li><Link to="#"><img src={Img3} alt=''/><span>Mission militaire et de securite</span></Link>
+                                    {/* <ul>
                                         <li><Link to="#"><img src={Img3} alt=''/><span>Adjoint</span></Link></li>
-                                    </ul>
+                                    </ul> */}
                                 </li>
-                                <li><Link to="#"><img src={Img2} alt=''/><span>Departement economique et commercial</span></Link></li>
-                                <li><Link to="#"><img src={Img2} alt=''/><span>Departement consulaire</span></Link></li>
-                                <li><Link to="#"><img src={Img2} alt=''/><span>Departement culturel</span></Link></li>
-                                <li><Link to="#"><img src={Img2} alt=''/><span>Departement politique</span></Link></li>
+                                <li><Link to="#"><img src={Img2} alt=''/><span>Service economique et commercial</span></Link></li>
+                                <li><Link to="#"><img src={Img2} alt=''/><span>Service consulaire</span></Link></li>
+                                <li><Link to="#"><img src={Img2} alt=''/><span>Service culturel</span></Link></li>
+                                {/* <li><Link to="#"><img src={Img2} alt=''/><span>Departement politique</span></Link></li> */}
                                 <li><Link to="#"><img src={Img2} alt=''/><span>La tresorerie</span></Link></li>
                                 <li><Link to="#"><img src={Img2} alt=''/><span>Service interpretariat et traduction</span></Link></li>
                             </ul>
                         </li>
-                        <li><Link to="#"><img src={Img1} alt=''/><span>Communication et relations publiques</span></Link>
+                        <li><Link to="#"><img src={Img1} alt=''/><span>Protocole</span></Link>
                             {/* <ul>
                                 <li><Link to="#"><img src={Img2} alt=''/><span>G Grand Child 1</span></Link></li>
                                 <li><Link to="#"><img src={Img2} alt=''/><span>G Grand Child 2</span></Link></li>
