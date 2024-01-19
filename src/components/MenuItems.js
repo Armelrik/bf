@@ -84,62 +84,69 @@ export const ambassadeDropdown = [
 export const consulatDropdown = [
     {
         id : 1,
+        title : "Consulat",
+        url : "/consulat",
+        menu : "Consulat",
+        cName : "submenu-item"
+    },
+    {
+        id : 2,
         title : "Evisas",
         url : "https://www.visaburkina.bf/",
         menu : "Consulat",
         cName : "submenu-item"
     },
     {
-        id : 2,
+        id : 3,
         title : "Visas",
         url : "/visas",
         menu : "Consulat",
         cName : "submenu-item"
     },
     {
-        id : 3,
+        id : 4,
         title : "Carte consulaire",
         url : "/consulCard",
         menu : "Consulat",
         cName : "submenu-item"
     },
     {
-        id : 4,
+        id : 5,
         title : "Passeport",
         url : "/passport",
         menu : "Consulat",
         cName : "submenu-item"
     },
     {
-        id : 5,
+        id : 6,
         title : "Actes et déclarations",
         url : "/acts",
         menu : "Consulat",
         cName : "submenu-item"
     },
     {
-        id : 6,
+        id : 7,
         title : "Certificat",
         url : "/certificate",
         menu : "Consulat",
         cName : "submenu-item"
     },
     {
-        id : 7,
+        id : 8,
         title : "Laissez passer",
         url : "/letpass",
         menu : "Consulat",
         cName : "submenu-item"
     },
     {
-        id : 8,
+        id : 9,
         title : "Capacité matrimoniale",
         url : "/capacity",
         menu : "Consulat",
         cName : "submenu-item"
     },
     {
-        id : 9,
+        id : 10,
         title : "Autres documents",
         url : "/otherDoc",
         menu : "Consulat",

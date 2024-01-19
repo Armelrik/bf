@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 import Img1 from "../assets/istockphoto-1288874565-1024x1024.jpg";
 import VisasData from '../components/VisasData';
 import { useTranslation } from 'react-i18next';
+import CapacityData from '../components/CapacityData';
 
 
 function Capacity (){
@@ -15,12 +16,12 @@ function Capacity (){
         <Hero 
             cName="hero-mid"
             heroImg={Img1}
-            title="Capacite matrimoniale"
+            title="Dossier de mariage"
             buttonText={ t ('buttonText') } 
             url="/signup"
             btnClass="show"
         />
-        <VisasData />
+        <CapacityData />
         <Footer />
     </>
   )

@@ -1,0 +1,93 @@
+.cd_container{
+    margin: 4rem 6rem;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+}
+
+.visas-text{
+    padding-bottom: 1rem;
+    padding: 2rem;
+}
+.visas-text h1{
+    padding-bottom: 1rem;
+}
+
+.visas-text p{
+    padding: 2rem 0;
+    text-align: justify;
+}
+
+.visas-text ul {
+    text-align: justify;
+}
+
+.cd_container img{
+    margin: 2rem 1rem;
+    width: 450px;
+    height: 350px;
+    border-radius: 7px;
+    object-fit: cover;
+}
+
+table{
+    /* position: absolute; */
+    /* left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%); */
+    /* margin: 2rem 6rem; */
+    border-collapse: collapse;
+    width: 800px;
+    /* height: 200px; */
+    /* border: 1px solid #bdc3c7; */
+    /* border-radius: 20px; */
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+tr{
+    transition: all .2s ease-in;
+    /* cursor: pointer; */
+}
+
+th{
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+td{
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+span{
+    font-weight: bold;
+}
+
+
+#header{
+    background-color: #024c02ef;
+    color: #fff;
+}
+
+ @media screen and (max-width: 850px) {
+    .visas-container{
+        margin: 4rem 2rem;
+        display: flex;
+        flex-direction: column;
+        margin-top: 2.5em;
+        object-fit: contain;
+    }
+
+    .visas-text{
+        width: 100%;
+    }
+
+    .visas-container img{
+        height: 250px;
+        width: 100%;
+        margin: 1.8rem 0;
+    }
+} 
+

@@ -21,83 +21,118 @@ function Visas() {
             
             <tr>
                 <td><span>1</span></td>
-                <td>Quittance de paiement des frais d’établissement</td>
-                <td><span>340</span></td>
-                <td><span>679</span></td>
+                <td>Frais d’établissement de Laissez-passer  </td>
+                <td><span>17</span></td>
+                <td><span>34</span></td>
             </tr>
 
             <tr>
                 <td><span>2</span></td>
-                <td>Formulaire de demande dûment rempli avec les empreintes biométriques </td>
+                <td>Acte de naissance  </td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>3</span></td>
-                <td>Extrait ou jugement supplétif d’Acte de Naissance </td>
+                <td>Copie de la Carte Nationale d’Identité Burkinabè ou de la Carte d’Identité Consulaire ou du Certificat de nationalité burkinabè</td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>4</span></td>
-                <td>Certificat de nationalité burkinabè</td>
+                <td>Photocopie du passeport </td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>5</span></td>
-                <td>Copie légalisée du certificat de nationalité burkinabè</td>
+                <td>Titre de séjour du demandeur  </td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             
             <tr>
                 <td><span>6</span></td>
-                <td>Casier judiciaire de moins de trois (03) mois (Facultatif) </td>
+                <td>Adresse complète et destination </td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>7</span></td>
-                <td>Copie légalisée de la Carte Nationale d’Identité Burkinabè ou de la Carte consulaire (obligatoire) </td>
+                <td>Deux (02) photos d’identités  </td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
-            <tr>
-                <td><span>8</span></td>
-                <td>Document justificatif de la profession et Titre de séjour</td>
-                <td><span></span></td>
-                <td><span></span></td>
-            </tr>
-            <tr>
-                <td><span>9</span></td>
-                <td>Trois (03) photos récentes pour passeport, prise de face sur fond blanc (front, oreilles et menton bien dégagé). </td>
-                <td><span></span></td>
-                <td><span></span></td>
-            </tr>
-            <tr>
-                <td><span>10</span></td>
-                <td>Adresse de la personne à prévenir en cas de besoin : Nom, prénom(s) et adresse téléphonique de quelqu’un vivant au Burkina Faso </td>
-                <td><span></span></td>
-                <td><span></span></td>
-            </tr>
-            <tr>
-                <td><span>11</span></td>
-                <td>En cas de perte : joindre la déclaration de perte délivrée par l’Ambassade </td>
-                <td><span></span></td>
-                <td><span></span></td>
-            </tr>
-            <tr>
-                <td><span>12</span></td>
-                <td>Pour des besoins d’information complémentaires sur le demandeur, le service compétent (la Division de la Migration de la police) pourrait solliciter une copie des documents d’identité (CNIB ou Passeport) des deux (02) parents, une copie du permis de séjour de l’intéressé, une copie du livret de famille. </td>
-                <td><span></span></td>
-                <td><span></span></td>
-            </tr>
+            
             <tr>
                 <td><span></span></td>
                 <td><span>Montant total </span></td>
-                <td><span>340</span></td>
-                <td><span>679</span></td>
+                <td><span>17</span></td>
+                <td><span>34</span></td>
+            </tr>
+            
+        </table>
+
+        {/* <p>{t('visas_text')}</p> */}
+        <p>Composition de dossier pour l’etablissement d’un laissez-passer pour mineur</p>
+        <table>
+            <tr id="header">
+                <th>Number</th>
+                <th>Documents</th>
+                <th>Fees in Dirham </th>
+                <th>Observations: unregistered fees</th>
+            </tr>
+            
+            <tr>
+                <td><span>1</span></td>
+                <td>Frais d’établissement de Laissez-passer  </td>
+                <td><span>17</span></td>
+                <td><span>34</span></td>
+            </tr>
+
+            <tr>
+                <td><span>2</span></td>
+                <td>Acte de naissance  </td>
+                <td><span></span></td>
+                <td><span></span></td>
+            </tr>
+            <tr>
+                <td><span>3</span></td>
+                <td>Photocopie du passeport </td>
+                <td><span></span></td>
+                <td><span></span></td>
+            </tr>
+            <tr>
+                <td><span>4</span></td>
+                <td>Photocopie de passeports des deux parents pour les mineurs</td>
+                <td><span></span></td>
+                <td><span></span></td>
+            </tr>
+            <tr>
+                <td><span>5</span></td>
+                <td>Titre de séjour des parents pour les mineurs</td>
+                <td><span></span></td>
+                <td><span></span></td>
+            </tr>
+            <tr>
+                <td><span>6</span></td>
+                <td>Adresse complète du lieu de résidence et de destination </td>
+                <td><span></span></td>
+                <td><span></span></td>
+            </tr>
+        
+            <tr>
+                <td><span>7</span></td>
+                <td>Deux (02) photos d’identités  </td>
+                <td><span></span></td>
+                <td><span></span></td>
+            </tr>
+            
+            <tr>
+                <td><span></span></td>
+                <td><span>Montant total </span></td>
+                <td><span>17</span></td>
+                <td><span>34</span></td>
             </tr>
             
         </table>

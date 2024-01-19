@@ -1,9 +1,9 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
-import ContactForm from '../components/ContactForm'
 import Footer from '../components/Footer'
 import Img from '../assets/istockphoto-1282629773-1024x1024.jpg';
+import PassportData from '../components/PassportData'
 
 const Passport = () => {
   return (
@@ -15,7 +15,7 @@ const Passport = () => {
         title="Passeport"
         btnClass="hide"
         />
-        <ContactForm />
+        <PassportData />
         <Footer />
     </div>
   )

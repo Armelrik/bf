@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 import Img1 from "../assets/istockphoto-1288874565-1024x1024.jpg";
 import VisasData from '../components/VisasData';
 import { useTranslation } from 'react-i18next';
+import OtherDocData from '../components/OtherDocData';
 
 
 function OtherDoc (){
@@ -20,7 +21,7 @@ function OtherDoc (){
             url="/signup"
             btnClass="show"
         />
-        <VisasData />
+        <OtherDocData />
         <Footer />
     </>
   )
