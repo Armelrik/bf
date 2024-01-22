@@ -8,13 +8,14 @@ import Img3 from "../assets/istockphoto-493558744-1024x1024.jpg";
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
-function Trip() {
+function Recents() {
     const { t } = useTranslation();
 
   return (
     <div className='trip'>
-        <h1>{t('trip_head')}</h1>
-        <p>{t('trip_text')}</p>
+        {/* <h1>{t('recent_head')}</h1> */}
+        <h1>Recents activities</h1>
+        <p>{t('recent_text')}</p>
 
         <div className='tripcard'>
             <TripData 
@@ -44,4 +45,4 @@ function Trip() {
   )
 }
 
-export default Trip; 
+export default Recents; 

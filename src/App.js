@@ -19,6 +19,7 @@ import LetPass from './routes/LetPass';
 import Capacity from './routes/Capacity';
 import OtherDoc from './routes/OtherDoc';
 import Consulat from './routes/Consulat';
+import Diaspora from './routes/Diaspora';
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
         <Route path='/letpass' element={<LetPass />} />
         <Route path='/capacity' element={<Capacity />} />
         <Route path='/otherDoc' element={<OtherDoc />} />
+        <Route path='/diaspora' element={<Diaspora />} />
       </Routes>
       <BackToTopButton />
     </div>

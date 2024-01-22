@@ -5,7 +5,7 @@ const SignupForm = () => {
   return (
     <div className='form-container'>
         <h1>Remplissez le formulaire pour prendre un rendez-vous!</h1>
-        <form>
+        <form onSubmit='/'>
             <input placeholder='Nom' />
             <input placeholder='Email' />
             <input placeholder='Jour' />
