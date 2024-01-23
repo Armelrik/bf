@@ -6,19 +6,19 @@ import { useTranslation } from 'react-i18next';
 function PassportData() {
   const { t } = useTranslation();
   return (
-    <div className='passport-container'>
+    <div className='pass_container'>
       <img src={Img1} alt='passport' />
-      <div className='passport-text'>
+      <div className='pass_text'>
         {/* <h1>{t('passport_head')}</h1> */}
-        <h1> Voici la liste des documents a fournir pour</h1>
+        <h1> Voici la liste des documents a fournir pour chaque type de passport</h1>
         {/* <p>{t('passport_text')}</p> */}
-        <p>Composition de dossier pour le renouvellement d’un passeport ordinaire burkinabe</p>
+        <p>Composition de dossier pour le renouvellement d’un passeport ordinaire burkinabe:</p>
         <table>
-            <tr id="header">
-                <th>Number</th>
+        <tr id="header">
+                <th>Numero</th>
                 <th>Documents</th>
-                <th>Fees in Dirham </th>
-                <th>Observations: unregistered fees</th>
+                <th>Montant en Dirham </th>
+                <th>Observations: non détenteur de la CIC</th>
             </tr>
             
             <tr>
@@ -103,16 +103,15 @@ function PassportData() {
             </tr>
             
         </table>
-
-        <p>Composition de dossier pour l’etablissement d’un passeport ordinaire burkinabe pour les personnes ayant acquis la nationalite burkinabe par le mariage </p>
+        <hr/>
+        <p>Composition de dossier pour l’etablissement d’un passeport ordinaire burkinabe pour les personnes ayant acquis la nationalite burkinabe par le mariage:</p>
         {/* <p>{t('passport_text')}</p> */}
-
         <table>
-            <tr id="header">
-                <th>Number</th>
+        <tr id="header">
+                <th>Numero</th>
                 <th>Documents</th>
-                <th>Fees in Dirham </th>
-                <th>Observations: unregistered fees</th>
+                <th>Montant en Dirham </th>
+                <th>Observations: non détenteur de la CIC</th>
             </tr>
             
             <tr>
@@ -204,15 +203,16 @@ function PassportData() {
             
         </table>
 
-        <p>Composition de dossier pour l’etablissement d’un passeport ordinaire burkinabe pour mineur </p>
+        <hr/>
+        <p>Composition de dossier pour l’etablissement d’un passeport ordinaire burkinabe pour mineur:</p>
         {/* <p>{t('passport_text')}</p> */}
 
         <table>
-            <tr id="header">
-                <th>Number</th>
+        <tr id="header">
+                <th>Numero</th>
                 <th>Documents</th>
-                <th>Fees in Dirham </th>
-                <th>Observations: unregistered fees</th>
+                <th>Montant en Dirham </th>
+                <th>Observations: non détenteur de la CIC</th>
             </tr>
             
             <tr>
@@ -291,15 +291,6 @@ function PassportData() {
             </tr>
             
         </table>
-
-        {/* <ul>
-            <li>{t('passport_text_1')}</li>
-            <li>{t('passport_text_2')}</li>
-            <li>{t('passport_text_3')}</li>
-            <li>{t('passport_text_4')}</li>
-            <li>{t('passport_text_5')}</li>
-        </ul>
-        <p>{t('passport_text_6')}</p> */}
       </div>
         
     </div>

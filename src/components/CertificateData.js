@@ -1,25 +1,25 @@
 import React from 'react'
 import Img1 from "../assets/demande.png";
-import './ConsulCardDataStyles.css';
+import './CertificateDataStyles.css';
 import { useTranslation } from 'react-i18next';
 
 const CertificateData = () => {
     const { t } = useTranslation();
     return (
-      <div className='consulCard-container'>
+      <div className='cd_container'>
         <img src={Img1} alt='consulCard' />
-        <div className='consulCard-text'>
+        <div className='cd_text'>
           {/* <h1>{t('consulCard_head')}</h1> */}
-          <h1>Establishment of a CIC</h1>
+          <h1>Composition de dossier pour l’établissement d’un CIC</h1>
           <p>Pieces a fournir pour la demande de CIC </p>
           {/* <p>{t('consulCard_text')}</p> */}
           
           <table>
-            <tr id="header">
-                <th>Number</th>
+          <tr id="header">
+                <th>Numero</th>
                 <th>Documents</th>
-                <th>Fees in Dirham </th>
-                <th>Observations</th>
+                <th>Montant en Dirham </th>
+                <th>Observations: non détenteur de la CIC</th>
             </tr>
             
             <tr>

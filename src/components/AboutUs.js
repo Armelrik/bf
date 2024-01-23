@@ -7,9 +7,9 @@ function AboutUs() {
   return (
 
 
-    <div className='about-container'>
+    <div className='about_container'>
       <img src={Img1} alt='ambassador' />
-      <div className='about-text'>
+      <div className='about_text'>
 
         <h1>Histoire du Burkina</h1>
         <p>

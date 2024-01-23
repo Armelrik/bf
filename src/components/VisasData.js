@@ -6,17 +6,17 @@ import { useTranslation } from 'react-i18next';
 function Visas() {
   const { t } = useTranslation();
   return (
-    <div className='visas-container'>
+    <div className='visas_container'>
       <img src={Img1} alt='visas' />
-      <div className='visas-text'>
+      <div className='visas_text'>
         <h1>{t('visas_head')}</h1>
         <p>{t('visas_text')}</p>
         <table>
-            <tr id="header">
-                <th>Number</th>
+        <tr id="header">
+                <th>Numero</th>
                 <th>Documents</th>
-                <th>Fees in Dirham </th>
-                <th>Observations: unregistered fees</th>
+                <th>Montant en Dirham </th>
+                <th>Observations: non détenteur de la CIC</th>
             </tr>
             
             <tr>

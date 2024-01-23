@@ -1,23 +1,23 @@
 import React from 'react'
-import './VisasDataStyles.css';
+import './ActsDataStyles.css';
 import Img1 from "../assets/pass.jpg";
 import { useTranslation } from 'react-i18next';
 
 function ActsData() {
   const { t } = useTranslation();
   return (
-    <div className='visas-container'>
+    <div className='acts_container'>
       <img src={Img1} alt='visas' />
-      <div className='visas-text'>
+      <div className='acts_text'>
         <h1>{t('visas_head')}</h1>
         {/* <p>{t('visas_text')}</p> */}
         <p>Composition de dossier pour l’établissement d’un acte de naissance</p>
         <table>
-            <tr id="header">
-                <th>Number</th>
+        <tr id="header">
+                <th>Numero</th>
                 <th>Documents</th>
-                <th>Fees in Dirham </th>
-                <th>Observations: unregistered fees</th>
+                <th>Montant en Dirham </th>
+                <th>Observations: non détenteur de la CIC</th>
             </tr>
             
             <tr>

@@ -3,8 +3,7 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import AboutImg from "../assets/istockphoto-467228674-1024x1024.jpg";
 import Footer from '../components/Footer';
-import AboutUs from '../components/AboutUs';
-import DiasporaData from '../components/DisaporaData';
+import DiasporaData from '../components/DiasporaData';
 
 function Diaspora() {
   return (

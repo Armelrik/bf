@@ -1,22 +1,23 @@
 import React from 'react'
-import './VisasDataStyles.css';
+import './LetPassDataStyles.css';
 import Img1 from "../assets/pass.jpg";
 import { useTranslation } from 'react-i18next';
 
-function Visas() {
+function LetPass() {
   const { t } = useTranslation();
   return (
-    <div className='visas-container'>
-      <img src={Img1} alt='visas' />
-      <div className='visas-text'>
+    <div className='lp_container'>
+      <img src={Img1} alt='Let Pass' />
+      <div className='lp_text'>
         <h1>{t('visas_head')}</h1>
-        <p>{t('visas_text')}</p>
+        {/* <p>{t('visas_text')}</p> */}
+        <p>Composition de dossier pour l’etablissement du laisser passer normal</p>
         <table>
-            <tr id="header">
-                <th>Number</th>
+        <tr id="header">
+                <th>Numero</th>
                 <th>Documents</th>
-                <th>Fees in Dirham </th>
-                <th>Observations: unregistered fees</th>
+                <th>Montant en Dirham </th>
+                <th>Observations: non détenteur de la CIC</th>
             </tr>
             
             <tr>
@@ -73,6 +74,7 @@ function Visas() {
             
         </table>
 
+        <hr/>
         {/* <p>{t('visas_text')}</p> */}
         <p>Composition de dossier pour l’etablissement d’un laissez-passer pour mineur</p>
         <table>
@@ -143,4 +145,4 @@ function Visas() {
   )
 }
 
-export default Visas;
+export default LetPass;

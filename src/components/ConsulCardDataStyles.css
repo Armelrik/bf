@@ -1,37 +1,33 @@
-.consulCard-container{
+.cc_container{
     margin: 4rem 6rem;
+    text-align: start;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.consulCard-text{
-    /* padding-bottom: 1rem; */
-    padding: 1rem 1rem;
-}
-.consulCard-text h1{
-    padding: 2rem 0rem;
-}
-
-.consulCard-text p{
-    padding: 1rem 0;
-    text-align: justify;
-}
-
-.consulCard-text ul {
-    text-align: justify;
-}
-
-.consulCard-container img{
-    margin: 2rem 1rem;
-    width: 450px;
-    height: 350px;
+.cc_container img{
+    /* margin: 1rem; */
+    width: 350px;
+    height: 250px;
     border-radius: 7px;
-    object-fit:scale-down;
+    object-fit: cover;
+}
+
+.cc_text{
+    padding-left: 2rem;
+}
+.cc_text h1{
+    padding-bottom: 1rem;
+}
+
+.cc_text p{
+    padding-bottom: 2rem;
+    text-align: justify;
 }
 
 @media screen and (max-width: 850px) {
-    .consulCard-container{
+    .cc_container{
         margin: 4rem 2rem;
         display: flex;
         flex-direction: column;
@@ -39,14 +35,13 @@
         object-fit: contain;
     }
 
-    .consulCard-text{
-        width: 100%;
-    }
-
-    .visas-container img{
+    .cc_container img{
         height: 250px;
         width: 100%;
         margin: 1.8rem 0;
+    }
+    .cc_text{
+        width: 100%;
     }
 }
 

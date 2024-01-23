@@ -1,25 +1,25 @@
 import React from 'react'
-import Img1 from "../assets/demande.png";
+import Img2 from "../assets/demande.png";
+import Img1 from "../assets/pass.jpg";
 import './ConsulCardDataStyles.css';
 import { useTranslation } from 'react-i18next';
 
 const ConsulCardData = () => {
     const { t } = useTranslation();
     return (
-      <div className='consulCard-container'>
-        <img src={Img1} alt='consulCard' />
-        <div className='consulCard-text'>
+      <div className='cc_container'>
+        <img src={Img1} alt='Consul Card' />
+        <div className='cc_text'>
           <h1>{t('consulCard_head')}</h1>
-          <p>Documents requis pour l’etablissement d’une carte d’identite consulaire burkinabe
-</p>
+          <p>Documents requis pour l’etablissement d’une carte d’identite consulaire burkinabe</p>
           {/* <p>{t('consulCard_text')}</p> */}
           
           <table>
             <tr id="header">
-                <th>Number</th>
+                <th>Numero</th>
                 <th>Documents</th>
-                <th>Fees in Dirham </th>
-                <th>Observations: unregistered fees</th>
+                <th>Montant en Dirham </th>
+                <th>Observations: non détenteur de la CIC</th>
             </tr>
             
             <tr>
@@ -64,9 +64,7 @@ const ConsulCardData = () => {
             
         </table>
         </div>
-          
-      </div>
-      
+    </div>
     )
 }
 

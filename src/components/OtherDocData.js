@@ -1,25 +1,25 @@
 import React from 'react'
 import Img1 from "../assets/demande.png";
-import './ConsulCardDataStyles.css';
+import './OtherDocDataStyles.css';
 import { useTranslation } from 'react-i18next';
 
 const OtherDocData = () => {
     const { t } = useTranslation();
     return (
-      <div className='consulCard-container'>
+      <div className='odd_container'>
         <img src={Img1} alt='consulCard' />
-        <div className='consulCard-text'>
+        <div className='odd_text'>
           {/* <h1>{t('consulCard_head')}</h1> */}
           <h1>Voici la liste des documents a fournir pour</h1>
           <p>Pieces a fournir pour l’etablissement d’une decharge </p>
           {/* <p>{t('consulCard_text')}</p> */}
           
           <table>
-            <tr id="header">
-                <th>Number</th>
+          <tr id="header">
+                <th>Numero</th>
                 <th>Documents</th>
-                <th>Fees in Dirham </th>
-                <th>Observations</th>
+                <th>Montant en Dirham </th>
+                <th>Observations: non détenteur de la CIC</th>
             </tr>
             
             <tr>
@@ -76,15 +76,16 @@ const OtherDocData = () => {
             
         </table>
 
+        <hr/>
         <p>Pieces a fournir pour l’etablissement d’une autorisation parentale </p>
           {/* <p>{t('consulCard_text')}</p> */}
           
           <table>
-            <tr id="header">
-                <th>Number</th>
+          <tr id="header">
+                <th>Numero</th>
                 <th>Documents</th>
-                <th>Fees in Dirham </th>
-                <th>Observations</th>
+                <th>Montant en Dirham </th>
+                <th>Observations: non détenteur de la CIC</th>
             </tr>
             
             <tr>

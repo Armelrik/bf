@@ -1,4 +1,4 @@
-.pass_container{
+.cap_container{
     margin: 4rem 6rem;
     text-align: start;
     display: flex;
@@ -6,7 +6,7 @@
     justify-content: space-between;
 }
 
-.pass_container img{
+.cap_container img{
     /* margin: 1rem; */
     width: 350px;
     height: 250px;
@@ -14,26 +14,26 @@
     object-fit: cover;
 }
 
-.pass_text{
+.cap_text{
     padding-left: 2rem;
 }
 
-.pass_text h1{
+.cap_text h1{
     padding-bottom: 1rem;
 }
 
-.pass_text p{
+.cap_text p{
     padding-bottom: 1rem;
     text-align: justify;
 }
 
-.pass_text hr{
+.cap_text hr{
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
 
 @media screen and (max-width: 850px) {
-    .pass_container{
+    .cap_container{
         margin: 4rem 2rem;
         display: flex;
         flex-direction: column;
@@ -41,13 +41,15 @@
         object-fit: contain;
     }
 
-    .pass_container img{
+    .cap_container img{
         height: 250px;
         width: 100%;
         margin: 1.8rem 0;
     }
-    .pass_text{
+    .cap_text{
         width: 100%;
     }
+
+    
 }
 

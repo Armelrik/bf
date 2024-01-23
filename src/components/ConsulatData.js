@@ -8,17 +8,16 @@ function ConsulatData() {
   return (
     <div className='cd_container'>
       <img src={Img1} alt='visas' />
-      <div className='visas-text'>
+      <div className='cd_text'>
         <h1>{t('visas_head')}</h1>
         <p>{t('visas_text')} {t('visas_text_6')}
         les vendredis, le service s’arrête à 12heures. Par conséquent, les retraits qui coïncident avec ce jour sont reportés au lundi qui suit immédiatement, de 14H à 16H.</p>
-
         <table>
-            <tr id="header">
-                <th>Number</th>
-                <th>Acts</th>
-                <th>Deposit</th>
-                <th>Withdrawal</th>
+        <tr id="header">
+                <th>Numero</th>
+                <th>Documents</th>
+                <th>Montant en Dirham </th>
+                <th>Observations: non détenteur de la CIC</th>
             </tr>
             
             <tr>

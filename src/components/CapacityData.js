@@ -1,22 +1,22 @@
 import React from 'react'
-import './ConsulatDataStyles.css';
+import './CapacityDataStyles.css';
 import Img1 from "../assets/pass.jpg";
 import { useTranslation } from 'react-i18next';
 
 function CapacityData() {
   const { t } = useTranslation();
   return (
-    <div className='cd_container'>
+    <div className='cap_container'>
       <img src={Img1} alt='visas' />
-      <div className='visas-text'>
+      <div className='cap_text'>
         <h1>{t('visas_head')}</h1>
-       <p>Constitution du dossier de mariage </p>
+       <p>Constitution de dossier pour mariage </p>
         <table>
-            <tr id="header">
-                <th>Number</th>
-                <th>Acts</th>
-                <th>Deposit</th>
-                <th>Withdrawal</th>
+        <tr id="header">
+                <th>Numero</th>
+                <th>Documents</th>
+                <th>Montant en Dirham </th>
+                <th>Observations: non détenteur de la CIC</th>
             </tr>
             
             <tr>
