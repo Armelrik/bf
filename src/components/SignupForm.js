@@ -10,10 +10,14 @@ const SignupForm = () => {
             <label>Objet</label>
             <select>
               <option>Visa</option>
-              <option>Passport</option>
+              <option>Actes et déclarations</option>
+              <option>Passeports</option>
+              <option>Cartes consulaires</option>
               <option>Laissez passer</option>
-              <option>Certificat</option>
-              <option>Autres</option>
+              <option>Procuration</option>
+              <option>Authentification</option>
+              <option>Décharge</option>
+              <option>Autres services</option>
             </select>
             </div>
             <input placeholder='Nom' />
