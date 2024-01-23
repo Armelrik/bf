@@ -1,23 +1,28 @@
 
 .ambassador-container{
     margin: 4rem 6rem;
-    /* text-align: start; */
+    text-align: start;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     /* margin: 4rem; */
 }
 
-.ambassador-container h1{
-    /* padding: 1rem; */
-    /* margin-left: 50px; */
-}
-
 .ambassador-container img{
-    margin: 2rem 1rem;
+    /* margin: 1rem 1rem; */
     width: 450px;
     height: 350px;
     border-radius: 7px;
+}
+
+.ambassador-text{
+    /* padding-bottom: 1rem; */
+    padding-left: 2rem;
+}
+
+.ambassador-container h1{
+    /* padding: 1rem; */
+    /* margin-left: 50px; */
 }
 
 .ambassador-container p{

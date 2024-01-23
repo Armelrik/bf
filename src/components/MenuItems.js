@@ -176,7 +176,7 @@ export const actualsDropdown = [
     {
         id : 1,
         title : "Ambassade",
-        url : "/ambassador",
+        url : "/ambassade",
         menu : "Actualités",
         cName : "submenu-item"
     },

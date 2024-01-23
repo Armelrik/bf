@@ -1,14 +1,43 @@
 .about-container{
     margin: 4rem 6rem;
     text-align: start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.about-container h1{
-    padding-bottom: 1rem;
+.about-container img{
+    margin: 1rem 1rem;
+    width: 250px;
+    height: 250px;
+    border-radius: 7px;
 }
 
-.about-container p{
+.about-text{
+    /* padding-bottom: 1rem; */
+    padding-left: 2rem;
+}
+
+.about-text h1{
+    /* padding-bottom: 1rem; */
+}
+
+.about-text p{
     padding-bottom: 2rem;
+    text-align: justify;
+}
+
+.ambassador-container img{
+    margin: 2rem 1rem;
+    width: 450px;
+    height: 350px;
+    border-radius: 7px;
+}
+
+.ambassador-container p{
+    padding-bottom: 2rem;
+    text-align: justify;
+    /* margin-left: 50px; */
 }
 
 

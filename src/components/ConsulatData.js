@@ -73,13 +73,6 @@ function ConsulatData() {
             </tr>
             
         </table>
-        {/* <ul>
-            <li>{t('visas_text_1')}</li>
-            <li>{t('visas_text_2')}</li>
-            <li>{t('visas_text_3')}</li>
-            <li>{t('visas_text_4')}</li>
-            <li>{t('visas_text_5')}</li>
-        </ul> */}
         
       </div>
     

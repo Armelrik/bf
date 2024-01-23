@@ -6,7 +6,7 @@ import Service from "./routes/Service";
 import Contact from "./routes/Contact";
 import Organigrame from './routes/Organigrame';
 import BackToTopButton from './components/BackToTopButton';
-import Ambassador from './routes/Ambassador';
+// import Ambassador from './routes/Ambassador';
 import Signup from './routes/Signup';
 import Galery from './routes/Galery';
 import Personnel from './routes/Personnel';
@@ -20,6 +20,7 @@ import Capacity from './routes/Capacity';
 import OtherDoc from './routes/OtherDoc';
 import Consulat from './routes/Consulat';
 import Diaspora from './routes/Diaspora';
+import Ambassade from './routes/Ambassade';
 
 function App() {
   return (
@@ -30,7 +31,7 @@ function App() {
         <Route path='/services' element={<Service/>} />
         <Route path='/contact' element={<Contact/>} />
         <Route path='/signup' element={<Signup/>} />
-        <Route path='/ambassador' element={<Ambassador/>} />
+        <Route path='/ambassade' element={<Ambassade/>} />
         <Route path='/organigrame' element={<Organigrame />} />
         <Route path='/galery' element={<Galery />} />
         <Route path='/signup' element={<Signup/>} />
