@@ -17,7 +17,7 @@ export class OrgData extends Component {
 
         <div className='tree'>
             <ul>
-                <li><Link to="/ambassador" className='amb_col'><img src={Img4} alt=''/><span>Ambassadeur</span></Link>
+                <li><Link to="#" className='amb_col'><img src={Img4} alt=''/><span>Ambassadeur</span></Link>
                 {/* <h3 className='float'><span>Protocole</span></h3> */}
                     <ul>
                         <li><Link to="#"><img src={Img1} alt=''/><span>Secretariat particulier</span></Link></li>

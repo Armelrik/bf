@@ -161,7 +161,7 @@
 } */
 
 /* Hover section */
-.tree li a:hover,
+/* .tree li a:hover,
 .tree li a:hover img,
 .tree li a:hover span,
 .tree li a:hover+ul li a{
@@ -169,6 +169,15 @@
     color: #000;
     border: 1px solid #94a0b4;
     box-shadow: 0px 0px 8px -5px #5f5f5f;
+} */
+
+/* Hover section */
+.tree li a:hover{
+    background: #c8e4f8;
+    color: #000;
+    border: 1px solid #94a0b4;
+    box-shadow: 0px 0px 8px -5px #5f5f5f;
+    transform: scale(1.2);
 }
 
 /* span:hover{
