@@ -1,6 +1,5 @@
 import React from 'react'
-import "./TripStyles.css"
-import TripData from './TripData';
+import TripData from "../components/Trip";
 
 import Img1 from "../assets/istockphoto-583736340-1024x1024.jpg";
 import Img2 from "../assets/istockphoto-496359874-1024x1024.jpg";
@@ -14,7 +13,7 @@ function Recents() {
   return (
     <div className='trip'>
         {/* <h1>{t('recent_head')}</h1> */}
-        <h1>Recents activities</h1>
+        <h1>Activities Recentes</h1>
         <p>{t('recent_text')}</p>
 
         <div className='tripcard'>
