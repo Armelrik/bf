@@ -13,7 +13,7 @@ i18n
   .use(LanguageDetector)
   .use(HttpApi)
   .init({
-    supportedLngs: ['en','fr'],
+    supportedLngs: ['en','fr','ar'],
     detection: {
       order: ['htmlTag','path', 'cookie', 'localStorage', 'subdomain'],
       caches: ['cookie'],

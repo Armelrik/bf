@@ -13,8 +13,8 @@ function AmbassadeData() {
         {/* <h1>{t('ambassador_head')}</h1> */}
         <h1>Ambassade du Burkina-Faso aux Émirats Arabes Unis</h1>
         {/* <p>{t('ambassador_text')}</p> */}
-        <p>Juridiquement ouverte en 2020, l'Ambassade du Burkina Faso 
-            aux Émirats Arabes Unis a commencé à fonctionner à partir de 2023 avec a sa tete le Dr. Souleymane KONATE</p>
+        <p>
+            </p>
       </div>
         
     </div>

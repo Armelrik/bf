@@ -33,8 +33,9 @@
     /* left: 10px; */
     display: flex;
     justify-content: start;
-    /* margin-left: 100px; */
+    margin-left: 10;
     font-size: smaller;
+    overflow: hidden;
 }
 
 .butLang {
@@ -141,13 +142,19 @@ button:hover{
 
     .langDiv{
         /* display: none; */
-    }
-
-    .NavbarItems{
         z-index: 99;
     }
 
-    .nav-menu, .langDiv {
+    .butLang{
+        z-index: 99;
+        display: block;
+        overflow: hidden;
+    }
+    .NavbarItems{
+        /* z-index: 99; */
+    }
+
+    .nav-menu {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;

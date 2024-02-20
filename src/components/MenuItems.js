@@ -96,13 +96,13 @@ export const consulatDropdown = [
         menu : "Consulat",
         cName : "submenu-item"
     },
-    {
-        id : 3,
-        title : "Visas",
-        url : "/visas",
-        menu : "Consulat",
-        cName : "submenu-item"
-    },
+    // {
+    //     id : 3,
+    //     title : "Visas",
+    //     url : "/visas",
+    //     menu : "Consulat",
+    //     cName : "submenu-item"
+    // },
     {
         id : 4,
         title : "Carte consulaire",
@@ -183,7 +183,7 @@ export const actualsDropdown = [
     {
         id : 2,
         title : "Burkina-Faso",
-        url : "/about",
+        url : "https://www.sig.gov.bf/accueil",
         menu : "Actualités",
         cName : "submenu-item"
     },

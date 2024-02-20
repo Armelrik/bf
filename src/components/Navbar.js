@@ -19,6 +19,11 @@ import i18next from 'i18next';
       name: 'EN',
       country_code: 'gb'
     },
+    {
+      code: 'ar',
+      name: 'AR',
+      country_code: 'ae'
+    },
   ]
 
 class Navbar extends Component {
