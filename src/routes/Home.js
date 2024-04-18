@@ -10,31 +10,30 @@ import { useTranslation } from "react-i18next";
 import Recents from "./Recents";
 import Booking from "./Booking";
 
-function Home(){
-    const { t } = useTranslation();
+function Home() {
+  const { t } = useTranslation();
 
-    return(
-    
-        <>
-        <Navbar />
-        {/* <NavbarLast/> */}
-        <Hero 
-            cName="hero"
-            heroImg={Img1}
-            title={ t ('welcome_message') }
-            text={ t ('title_message') } 
-            buttonText={ t ('buttonText') } 
-            url="/signup"
-            btnClass="show"
-        />
-        <Destination />
-        <Booking />
-        <Trip />
-        {/* <Recents /> */}
-        <Tools />
-        <Footer />
-        </>
-    )
+  return (
+    <>
+      <Navbar />
+      {/* <NavbarLast/> */}
+      <Hero
+        cName="hero"
+        heroImg={Img1}
+        title={t("welcome_message")}
+        text={t("title_message")}
+        buttonText={t("buttonText")}
+        url="/signup"
+        btnClass="show"
+      />
+      <Destination />
+      <Tools />
+      <Booking />
+      {/* <Trip /> */}
+      {/* <Recents /> */}
+      <Footer />
+    </>
+  );
 }
 
 export default Home;
