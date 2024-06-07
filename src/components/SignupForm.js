@@ -1,5 +1,7 @@
 import React from "react";
 import "./SignupFormStyles.css";
+import StripeContainer from "../stripe/StripeContainer";
+import { CheckoutForm } from "../stripe/CheckoutForm";
 
 const SignupForm = () => {
   return (
@@ -30,8 +32,10 @@ const SignupForm = () => {
             <option>Décharge</option>
             <option>Autres services</option>
           </select>
-          <span>||||||</span>
-          <button> Payer</button>
+          {/* <span>||||||</span> */}
+          <StripeContainer />
+          
+          {/* <button> Payer</button> */}
         </div>
         <div>
           <p>

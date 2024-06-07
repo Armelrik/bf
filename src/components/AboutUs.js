@@ -2,8 +2,10 @@ import React from 'react';
 import './AboutUsStyles.css';
 import Img1 from "../assets/Drapeau-bf.gif";
 import Img2 from "../assets/amb.jpeg";
+import { useTranslation } from 'react-i18next';
 
 function AboutUs() {
+  const { t } = useTranslation();
   return (
 
 
@@ -12,6 +14,7 @@ function AboutUs() {
       <div className='about_text'>
 
         <h1>Histoire du Burkina</h1>
+        <h1>{t('history_head')}</h1>
         <p>
         Le Burkina Faso, littéralement « Pays des hommes intègres » est un pays d’Afrique de l'Ouest sans 
         accès à la mer, frontalier du Mali au nord, du Niger à l’est, du Bénin et du Togo au sud-est, 
