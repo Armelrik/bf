@@ -4,7 +4,7 @@ import Hero from "../components/Hero";
 import Destination from "../components/Destination";
 import Trip from "../components/Trip";
 import Footer from "../components/Footer";
-import Img1 from "../assets/2.jpg";
+import Img1 from "../assets/img/bf-drapeau-ciel.jpg";
 import Tools from "../components/Tools";
 import { useTranslation } from "react-i18next";
 import Recents from "./Recents";

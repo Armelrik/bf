@@ -6,6 +6,8 @@ import { consulatDropdown } from './MenuItems';
 import Img from '../assets/bf.png';
 import 'flag-icon-css/css/flag-icons.min.css'
 import i18next from 'i18next';
+import { useTranslation } from 'react-i18next';
+import NavLinks from './NavLinks';
 
 
   const languages = [
@@ -28,12 +30,15 @@ import i18next from 'i18next';
 
 class Navbar extends Component {
   
+  
+  
   state = { clicked: false};
   handledClick = () => {
     this.setState({ clicked: !this.state.clicked })
   };
 
   render(){
+    
     return(
       <>
         <nav className="NavbarItems">
@@ -56,93 +61,10 @@ class Navbar extends Component {
         </div>
 
         <div className={this.state.clicked ? "nav-menu active" : "nav-menu" }>
-      
-          {MenuItems.map((item,index) => {
-            if(item.title === "Ambassade"){
-            return (
-              <div key={index} className='dropdown'>
-              <button  className='dropbtn'>
-                <i className={item.icon}></i>{item.title}
-              </button>
-              <div  className='dropdown-content'>
-                  {/* <Link to='/'>{item.title}</Link> */}
-                  {ambassadeDropdown.map((item, index) => {
-                    return(
-                      <div key={index}>
-                        <Link to={item.url}>{item.title}</Link>
-                      </div>
-                      )
-                  })}
-              </div>
-            </div>
-            )}
-            if(item.title === "Consulat"){
-            return (
-              <div key={index} className='dropdown'>
-              <button  className='dropbtn'>
-                <i className={item.icon}></i>{item.title}
-              </button>
-              <div  className='dropdown-content'>
-                  {consulatDropdown.map((item, index) => {
-                    return(
-                      <div key={index}>
-                        <Link to={item.url}>{item.title}</Link>
-                      </div>
-                      )
-                  })}
-              </div>
-            </div>
-            )}
-            if(item.title === "Coopération"){
-            return (
-              <div key={index} className='dropdown'>
-              <button  className='dropbtn'>
-                <i className={item.icon}></i>{item.title}
-              </button>
-              <div  className='dropdown-content'>
-                  {cooperationDropdown.map((item, index) => {
-                    return(
-                      <div key={index}>
-                        <Link to={item.url}>{item.title}</Link>
-                      </div>
-                      )
-                  })}
-              </div>
-            </div>
-            )}
-            if(item.title === "Actualités"){
-            return (
-              <div key={index} className='dropdown'>
-              <button  className='dropbtn'>
-                <i className={item.icon}></i>{item.title}
-              </button>
-              <div  className='dropdown-content'>
-                  {actualsDropdown.map((item, index) => {
-                    return(
-                      <div key={index}>
-                        <Link to={item.url}>{item.title}</Link>
-                      </div>
-                      )
-                  })}
-              </div>
-            </div>
-            )}
-            
-            return (
-              <div key={index} className='dropdown'>
-              <Link  className='nav-links' to={item.url}>
-                <i className={item.icon}></i>{item.title}
-              </Link></div>
-            )
-          }
-          )}
-          
+            <NavLinks />
         </div>
-        
       </nav> 
       </>
-      
-
     )
   }
 }
