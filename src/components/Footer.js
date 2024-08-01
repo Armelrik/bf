@@ -25,29 +25,29 @@ const Footer = () => {
         </div>
         <div className='bottom'>
             <div>
-                <h4>Adress</h4>
+                <h4>{t('footer_bottom1')}</h4>
                 <div>
-                <span>15 Al Khawarizmi Street Al Mushrif</span>
-                <span>P.O.B. 5928 Abu Dhabi-United Arab Emirates</span>
-                <span>Phone: (+971) 2 447 8476 | Fax: (+971) 2 447 6778</span>
-                <span>Mail: amba.abudhabi@diplomatie.gov.bf</span>
-                <span>Ouvert du lundi au Jeudi de 9h a 16h</span>
-                <span>Le vendredi de 9h a 12h</span>
+                <span>{t('footer_bottom_child1')}</span>
+                <span>{t('footer_bottom_child2')}</span>
+                <span>{t('footer_bottom_child3')}</span>
+                <span>{t('footer_bottom_child4')}</span>
+                <span>{t('footer_bottom_child5')}</span>
+                <span>{t('footer_bottom_child6')}</span>
                 </div>
             </div>
             <div>
-                <h4>Embassy</h4>
+                <h4>{t('footer_bottom2')}</h4>
                 {/* <a href='/ambassador'>Ambassadeur</a> */}
-                <a href='/'>Charte</a>
-                <a href='/'>Fériés</a>
-                <a href='/'>Galeries</a>
+                <a href='/'>{t('footer_bottom_child7')}</a>
+                <a href='/'>{t('footer_bottom_child8')}</a>
+                <a href='/'>{t('footer_bottom_child9')}</a>
             </div>
             <div>
-                <h4>Consulat</h4>
-                <a href='/visas'>Visas</a>
-                <a href='/passport'>Passeport</a>
-                <a href='/certificate'>Certificates</a>
-                <a href='/otherDoc'>Autres</a>
+                <h4>{t('footer_bottom3')}</h4>
+                <a href='/visas'>{t('footer_bottom_child10')}</a>
+                <a href='/passport'>{t('footer_bottom_child11')}</a>
+                <a href='/certificate'>{t('footer_bottom_child12')}</a>
+                <a href='/otherDoc'>{t('footer_bottom_child13')}</a>
             </div>
             {/* <div>
                 <h4>Communautées</h4>
@@ -57,15 +57,15 @@ const Footer = () => {
                 <a href='/'>Actualités</a>
             </div> */}
             <div>
-                <h4>Help</h4>
-                <a href='/'>Support</a>
-                <a href='/'>Plan-du-site</a>
-                <a href='/'>Handicapes</a>
-                <a href='/contact'>Contacts</a>
+                <h4>{t('footer_bottom4')}</h4>
+                <a href='/'>{t('footer_bottom_child14')}</a>
+                <a href='/'>{t('footer_bottom_child15')}</a>
+                <a href='/'>{t('footer_bottom_child16')}</a>
+                <a href='/contact'>{t('footer_bottom_child17')}</a>
             </div>
         </div>
         <div className='credit'>
-            <hr/>{t('footer_head')} @2024 - <a href='www.armelrik.com'>Melrik's digital.</a>
+            <hr/>{t('footer_head')} @2024 - <a href='www.armelrik.tech'>Melrik's digital.</a>
         </div>
     </div>
   )
