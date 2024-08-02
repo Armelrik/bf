@@ -1,8 +1,12 @@
 const express = require("express");
-const app = express();
-require("dotenv").config();
-const stripe = require("stripe")(process.env.STRIPE_SECRET_TEST);
 const bodyParser = require("body-parser");
+const stripe = require("stripe")(process.env.STRIPE_SECRET_TEST);
+const app = express();
+const port = 3000;
+
+require("dotenv").config();
+
+
 const cors = require("cors")
 
 app.use(bodyParser.urlencoded({extended: true}));
@@ -16,7 +20,7 @@ app.post("/stripe/charge", cors(), async(req, res) => {
         const payment = await stripe.paymentIntents.create({
             amount: amount,
             currency: "EUR",
-            description: "Your company description",
+            description: "AmbaBF-Abudhabi",
             payment_method: id,
             confirm: true,
             //return_url: 'http://localhost:8080/',
@@ -26,7 +30,7 @@ app.post("/stripe/charge", cors(), async(req, res) => {
             success: true,
         })
     } catch(error){
-        console.log("error occured...", error);
+        console.log("Error occured...", error);
         res.json({
             message: "Payment failed!",
             success: false,
@@ -34,6 +38,6 @@ app.post("/stripe/charge", cors(), async(req, res) => {
     }
 })
 
-app.listen(process.env.PORT || 8080, () => {
+app.listen(process.env.PORT || port, () => {
     console.log("Server is starting...");
 })
