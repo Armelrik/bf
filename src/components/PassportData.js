@@ -10,193 +10,193 @@ function PassportData() {
       <img src={Img1} alt='passport' />
       <div className='pass_text'>
         {/* <h1>{t('passport_head')}</h1> */}
-        <h1> Voici la liste des documents a fournir pour chaque type de passport</h1>
+        <h1>{t('pass_text')} </h1>
         {/* <p>{t('passport_text')}</p> */}
-        <p>Composition de dossier pour le renouvellement d’un passeport ordinaire burkinabe:</p>
+        <p>{t('pass_subText')}:</p>
         <table>
         <tr id="header">
-                <th>Numero</th>
-                <th>Documents</th>
-                <th>Montant en Dirham </th>
-                <th>Observations: non détenteur de la CIC</th>
+                <th>{t('consulCard_title1')}</th>
+                <th>{t('consulCard_title2')}</th>
+                <th>{t('consulCard_title3')}</th>
+                <th>{t('consulCard_title4')}</th>
             </tr>
             
             <tr>
                 <td><span>1</span></td>
-                <td>Quittance cachetée de paiement des frais d’établissement </td>
+                <td>{t('pass_row1')} </td>
                 <td><span>340</span></td>
                 <td><span>679</span></td>
             </tr>
 
             <tr>
                 <td><span>2</span></td>
-                <td>Formulaire de Demande dûment rempli et revêtue du cachet droit de timbre perçu à retirer à l’Ambassade. Le formulaire porte obligatoirement les empreintes du demandeur.</td>
+                <td>{t('pass_row2')}</td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>3</span></td>
-                <td>Photocopie du passeport en voie d’expiration ou expiré </td>
+                <td>{t('pass_row3')} </td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>4</span></td>
-                <td>Photocopie légalisée de la Carte d’Identité Consulaire ou de la CNIB (obligatoire)</td>
+                <td>{t('pass_row4')}</td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>5</span></td>
-                <td>Document justificatif de la profession </td>
+                <td>{t('pass_row5')} </td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             
             <tr>
                 <td><span>6</span></td>
-                <td>Trois (03) photos récentes pour passeport, prises de face sur fond blanc (front, oreilles et menton bien dégagé). Bonne tenue vivement recommandée.</td>
+                <td>{t('pass_row6')}</td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>7</span></td>
-                <td>Adresse de la personne à prévenir en cas de besoin : Nom, prénom(s) et adresse téléphonique de quelqu’un vivant au Burkina Faso </td>
+                <td>{t('pass_row7')} </td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>8</span></td>
-                <td>Titre de séjour </td>
+                <td>{t('pass_row8')} </td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>9</span></td>
-                <td>En cas de perte, joindre une attestation de perte faite à l’Ambassade sur la base de la déclaration de perte établie par la police émiratie compétente ;</td>
+                <td>{t('pass_row9')}</td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>10</span></td>
-                <td>Extrait de naissance </td>
+                <td>{t('pass_row10')} </td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>11</span></td>
-                <td>Certificat de nationalité </td>
+                <td>{t('pass_row11')} </td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>12</span></td>
-                <td>Pour un renouvellement avant six (06) de la date d’expiration, joindre le passeport original à la demande</td>
+                <td>{t('pass_row12')}</td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span></span></td>
-                <td><span>Montant total </span></td>
+                <td><span>{t('consulCard_row7')}</span></td>
                 <td><span>340</span></td>
                 <td><span>679</span></td>
             </tr>
             
         </table>
         <hr/>
-        <p>Composition de dossier pour l’etablissement d’un passeport ordinaire burkinabe pour les personnes ayant acquis la nationalite burkinabe par le mariage:</p>
+        <p>{t('pass_subText2')}:</p>
         {/* <p>{t('passport_text')}</p> */}
         <table>
         <tr id="header">
-                <th>Numero</th>
-                <th>Documents</th>
-                <th>Montant en Dirham </th>
-                <th>Observations: non détenteur de la CIC</th>
+                <th>{t('consulCard_title1')}</th>
+                <th>{t('consulCard_title2')}</th>
+                <th>{t('consulCard_title3')}</th>
+                <th>{t('consulCard_title4')}</th>
             </tr>
             
             <tr>
                 <td><span>1</span></td>
-                <td>Quittance cachetée de paiement des frais d’établissement </td>
+                <td>{t('pass_mar1')}</td>
                 <td><span>340</span></td>
                 <td><span>679</span></td>
             </tr>
 
             <tr>
                 <td><span>2</span></td>
-                <td>Formulaire de Demande dument rempli et revêtue du cachet ‘‘droit de timbre perçu’’ à retirer à l’Ambassade  </td>
+                <td>{t('pass_mar2')}</td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>3</span></td>
-                <td>Trois (03) photos récentes pour passeport, prises de face sur fond blanc (front, oreilles et menton bien dégagé). Bonne tenue vivement recommandée. </td>
+                <td>{t('pass_mar3')}</td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>4</span></td>
-                <td>Extrait ou photocopie légalisée d’Acte de Naissance </td>
+                <td>{t('pass_mar4')}</td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>5</span></td>
-                <td>Photocopie légalisée de la Carte d’Identité Consulaire  </td>
+                <td>{t('pass_mar5')}</td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             
             <tr>
                 <td><span>6</span></td>
-                <td>Certificat de nationalité burkinabè</td>
+                <td>{t('pass_mar6')}</td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>7</span></td>
-                <td>Casier judiciaire datant de moins de 3 mois (facultatif)</td>
+                <td>{t('pass_mar7')}</td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>8</span></td>
-                <td>Extrait ou photocopie légalisée de l’Acte de mariage </td>
+                <td>{t('pass_mar8')} </td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>9</span></td>
-                <td>Attestation de la profession ou une copie légalisée </td>
+                <td>{t('pass_mar9')}</td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>10</span></td>
-                <td>Copie du passeport de la nationalité d’origine de l’intéressé(e)  </td>
+                <td>{t('pass_mar10')}</td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>11</span></td>
-                <td>Copie du passeport, de la CNIB ou de la CIC du ou de la conjoint(e)  </td>
+                <td>{t('pass_mar11')}</td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>12</span></td>
-                <td>Adresse de la personne à prévenir en cas de besoin : Nom, prénom(s) et adresse téléphonique de quelqu’un vivant au Burkina Faso </td>
+                <td>{t('pass_mar12')}</td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>13</span></td>
-                <td>Titre de séjour (facultatif) </td>
+                <td>{t('pass_mar13')}</td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span></span></td>
-                <td><span>Montant total </span></td>
+                <td><span>{t('consulCard_row7')}</span></td>
                 <td><span>340</span></td>
                 <td><span>679</span></td>
             </tr>
@@ -204,98 +204,97 @@ function PassportData() {
         </table>
 
         <hr/>
-        <p>Composition de dossier pour l’etablissement d’un passeport ordinaire burkinabe pour mineur:</p>
+        <p>{t('pass_subText3')}:</p>
         {/* <p>{t('passport_text')}</p> */}
 
         <table>
         <tr id="header">
-                <th>Numero</th>
-                <th>Documents</th>
-                <th>Montant en Dirham </th>
-                <th>Observations: non détenteur de la CIC</th>
+                <th>{t('consulCard_title1')}</th>
+                <th>{t('consulCard_title2')}</th>
+                <th>{t('consulCard_title3')}</th>
+                <th>{t('consulCard_title4')}</th>
             </tr>
             
             <tr>
                 <td><span>1</span></td>
-                <td>Quittance cachetée de paiement des frais d’établissement </td>
+                <td>{t('pass_ord1')}</td>
                 <td><span>340</span></td>
                 <td><span>679</span></td>
             </tr>
 
             <tr>
                 <td><span>2</span></td>
-                <td>Formulaire de Demande dument rempli (pas d’empreintes)</td>
+                <td>{t('pass_ord2')}</td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>3</span></td>
-                <td>Autorisation parentale (père ou mère)</td>
+                <td>{t('pass_ord3')}</td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>4</span></td>
-                <td>Extrait d’acte de naissance ou jugement supplétif d’acte de naissance</td>
+                <td>{t('pass_ord4')}</td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>5</span></td>
-                <td>Certificat de nationalité burkinabè</td>
+                <td>{t('pass_ord5')}</td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             
             <tr>
                 <td><span>6</span></td>
-                <td>Photocopies légalisées des Passeports ou CNIB ou CIC des deux (2) parents </td>
+                <td>{t('pass_ord6')} </td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>7</span></td>
-                <td>Trois (03) photos récentes pour passeport, prises de face sur fond blanc (front, oreilles et menton bien dégagé). Bonne tenue vivement recommandée.</td>
+                <td>{t('pass_ord7')}</td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>8</span></td>
-                <td>Adresse de la personne à prévenir en cas de besoin : Nom, prénom(s) et adresse téléphonique de quelqu’un vivant au Burkina Faso </td>
+                <td>{t('pass_ord8')} </td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>9</span></td>
-                <td>Titre de séjour des parents  </td>
+                <td>{t('pass_ord9')}  </td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>10</span></td>
-                <td>Certificat de scolarité (pour les élèves) ou une attestation d’inscription de l’année académique en cours (pour les étudiants)</td>
+                <td>{t('pass_ord10')}</td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>11</span></td>
-                <td>Traduction de l’acte de naissance en français (pour les actes de naissance en arabe ou autre langue) </td>
+                <td>{t('pass_ord11')} </td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span></span></td>
-                <td><span>Montant total </span></td>
+                <td><span>{t('consulCard_row7')}</span></td>
                 <td><span>340</span></td>
                 <td><span>679</span></td>
             </tr>
             
         </table>
-      </div>
+        </div>
         
     </div>
-    
-  )
+    )
 }
 
 export default PassportData;

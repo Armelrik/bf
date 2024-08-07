@@ -1,53 +1,44 @@
 import React from "react";
 import "./SignupFormStyles.css";
 import StripeContainer from "../stripe/StripeContainer";
-import { CheckoutForm } from "../stripe/CheckoutForm";
+import { useTranslation } from 'react-i18next';
 
 const SignupForm = () => {
+  const { t } = useTranslation();
   return (
     <div className="form-container">
-      <h1>
-        Créez un compte et choissisez le service que vous voulez effectuer en
-        ligne
-      </h1>
+      <h1>{t('signup_title')}</h1>
       <form>
-        <input placeholder="Nom" />
-        <input placeholder="Prénom" />
-        <input placeholder="Email" />
-        <input placeholder="Télephone" />
-        <input placeholder="Ville" />
+        <input placeholder={t('signup_surname')} />
+        <input placeholder={t('signup_name')} />
+        <input placeholder={t('signup_mail')} />
+        <input placeholder={t('signup_phone')} />
+        <input placeholder={t('signup_town')} />
         {/* <input type="date" placeholder="Jour" /> */}
         {/* <input type="time" placeholder="Heure"></input> */}
 
         <div className="form-text">
-          <label>Formulaire</label>
+          <label>{t('signup_form')}</label>
           <select>
-            <option>Visa</option>
-            <option>Actes et déclarations</option>
-            <option>Passeports</option>
-            <option>Cartes consulaires</option>
-            <option>Laissez passer</option>
-            <option>Procuration</option>
-            <option>Authentification</option>
-            <option>Décharge</option>
-            <option>Autres services</option>
+            <option>{t('signup_drop1')}</option>
+            <option>{t('signup_drop2')}</option>
+            <option>{t('signup_drop3')}</option>
+            <option>{t('signup_drop4')}</option>
+            <option>{t('signup_drop5')}</option>
+            <option>{t('signup_drop6')}</option>
+            <option>{t('signup_drop7')}</option>
+            <option>{t('signup_drop8')}</option>
+            <option>{t('signup_drop9')}</option>
           </select>
           {/* <span>||||||</span> */}
           <StripeContainer />
-          
           {/* <button> Payer</button> */}
         </div>
         <div>
-          <p>
-            vous devez effectuer un paiement pour télécharger le formulaire de
-            la prestation dont vous avez besoin puis vous rendre sur votre
-            compte pour restituer le dossier que vous avez complété en version
-            PDF. vous recevrez des commentaires en fonction du temps d'exécution
-            du service. MERCI.
-          </p>
+          <p>{t('signup_text')}</p>
           <br />
         </div>
-        <button>Valider</button>
+        <button>{t('signup_button')}</button>
       </form>
     </div>
   );

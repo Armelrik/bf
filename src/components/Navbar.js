@@ -1,12 +1,9 @@
 import './NavbarStyles.css';
-import { Component, useState } from 'react';
+import { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { MenuItems, actualsDropdown, ambassadeDropdown, cooperationDropdown } from './MenuItems';
-import { consulatDropdown } from './MenuItems';
 import Img from '../assets/bf.png';
 import 'flag-icon-css/css/flag-icons.min.css'
 import i18next from 'i18next';
-import { useTranslation } from 'react-i18next';
 import NavLinks from './NavLinks';
 
 
@@ -42,14 +39,14 @@ class Navbar extends Component {
     return(
       <>
         <nav className="NavbarItems">
-         <Link to="/" className='navbar-logo'>
+        <Link to="/" className='navbar-logo'>
           <img src={Img} alt='logo'/>
         </Link>
 
         <div className='langDiv'>
           {languages.map(({code,name, country_code}) => (
             <button type='button' className='butLang' key={country_code}
-             onClick={() => i18next.changeLanguage(code)}>
+            onClick={() => i18next.changeLanguage(code)}>
               <span className={`flag-icon flag-icon-${country_code}`}></span><br/>{name}
             </button>
           ))}

@@ -32,7 +32,7 @@
     /* position: absolute; */
     /* left: 10px; */
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     margin-left: 10;
     font-size: smaller;
     overflow: hidden;
@@ -75,9 +75,6 @@ button:hover{
         z-index: 99;
         display: block;
         overflow: hidden;
-    }
-    .NavbarItems{
-        /* z-index: 99; */
     }
 
     .nav-menu {
@@ -135,7 +132,5 @@ button:hover{
         font-size: 1.2rem;
         color: #222;
     }
-
-    
 }
 

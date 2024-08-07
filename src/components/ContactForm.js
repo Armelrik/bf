@@ -1,30 +1,32 @@
 import './ContactFormStyle.css';
+import { useTranslation } from 'react-i18next';
 
 import React from 'react';
 
 function ContactForm() {
+  const { t } = useTranslation();
   return (
     <div className='form-container'>
-        <h1>Nos Horaires</h1>
-          <span>Nous sommes ouvert du lundi au Jeudi de 9h a 16h</span>
-          <span>Le vendredi de 9h a 12h</span>
-          <span>Fermée samedi et dimanche</span>
+        <h1>{t('contact_head1')}</h1>
+          <span>{t('contact_text1')}</span>
+          <span>{t('contact_text2')}</span>
+          <span>{t('contact_text3')}</span>
 
-        <h1>Nos coordonnées</h1>
+        <h1>{t('contact_head2')}</h1>
         <div className='form_info'>
-          <span>15 Al Khawarizmi Street Al Mushrif</span>
-          <span>P.O.Box 5928 Abu Dhabi-United Arab Emirates</span>
-          <span>Phone: (+971) 2 447 8476</span>
-          <span>Fax: (+971) 2 447 6778</span>
-          <span>Mail: amba.abudhabi@diplomatie.gov.bf</span>
+          <span>{t('contact_text4')}</span>
+          <span>{t('contact_text5')}</span>
+          <span>{t('contact_text6')}</span>
+          <span>{t('contact_text7')}</span>
+          <span>{t('contact_text8')}</span>
         </div>
-        <h1>Nous envoyer un message!</h1>
+        <h1>{t('contact_head3')}</h1>
           <form>
-            <input placeholder='Nom' />
-            <input placeholder='Email' />
-            <input placeholder='Objet' />
-            <textarea placeholder='Votre Requette' rows="6"></textarea>
-            <button>Envoyer votre message</button>
+            <input placeholder={t('contact_name')} />
+            <input placeholder={t('contact_mail')}/>
+            <input placeholder={t('contact_subject')} />
+            <textarea placeholder={t('contact_message')} rows="6"></textarea>
+            <button>{t('contact_button')}</button>
           </form>
     </div>
   )
