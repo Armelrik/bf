@@ -10,64 +10,64 @@ function CapacityData() {
       <img src={Img1} alt='visas' />
       <div className='cap_text'>
         <h1>{t('visas_head')}</h1>
-       <p>Constitution de dossier pour mariage </p>
+       <p>{t('capacity_text')} </p>
         <table>
         <tr id="header">
-                <th>Numero</th>
-                <th>Documents</th>
-                <th>Montant en Dirham </th>
-                <th>Observations: non détenteur de la CIC</th>
+                <th>{t('consulCard_title1')}</th>
+                <th>{t('consulCard_title2')}</th>
+                <th>{t('consulCard_title3')}</th>
+                <th>{t('consulCard_title4')}</th>
             </tr>
             
             <tr>
                 <td><span>1</span></td>
-                <td>01-	Demande adressée à SEM l’Ambassadeur ou le Chargé d’Affaires a.i. (y mentionner également votre adresse et votre n° de téléphone)</td>
+                <td>{t('capacity_row1')}</td>
                 <td></td>
                 <td></td>
             </tr>
 
             <tr>
                 <td><span>2</span></td>
-                <td><span>Actes de constatation et de confirmation de régularité </span> Légalisation, certification, autorisation parentale, procuration, décharge</td>
-                <td>9h - 11h</td>
-                <td>Le jour du dépôt de 14h - 16h</td>
+                <td><span>{t('capacity_row2')}</span>{t('capacity_row2_1')} </td>
+                <td>{t('capacity_row2_2')}</td>
+                <td>{t('capacity_row2_3')}</td>
             </tr>
 
             <tr>
                 <td><span>3</span></td>
-                <td><span>Actes particuliers: </span>Demande de visa</td>
-                <td>9h - 11h</td>
-                <td>72h après le dépôt de 15h - 16h</td>
+                <td><span>{t('capacity_row3')}</span>{t('capacity_row3_1')}</td>
+                <td>{t('capacity_row2_2')}</td>
+                <td>{t('capacity_row3_2')}</td>
             </tr>
             <tr>
                 <td><span>4</span></td>
-                <td><span>Actes particuliers: </span>Acte de naissance</td>
-                <td>9h - 11h</td>
-                <td>Une semaine après la déclaration de naissance de 15h - 16h</td>
+                <td><span>{t('capacity_row4')}</span>{t('capacity_row4_1')}</td>
+                <td>{t('capacity_row2_2')}</td>
+                <td>{t('capacity_row4_2')}</td>
             </tr>
             <tr>
                 <td><span>5</span></td>
-                <td><span>Actes particuliers: </span>Acte de mariage</td>
-                <td>9h - 11h</td>
-                <td>Immédiatement après la célébration</td>
+                <td><span>{t('capacity_row5')} </span>{t('capacity_row5_1')}</td>
+                <td>{t('capacity_row2_2')}</td>
+                <td>{t('capacity_row5_2')}</td>
             </tr>
             <tr>
                 <td><span>6</span></td>
-                <td><span>Actes particuliers: </span>Carte d’identité consulaire</td>
-                <td>9h - 11h</td>
-                <td>48h après dépôt de 14h - 16h</td>
+                <td><span>{t('capacity_row6')}</span>{t('capacity_row6_1')}</td>
+                <td>{t('capacity_row2_2')}</td>
+                <td>{t('capacity_row6_2')}</td>
             </tr>
             <tr>
                 <td><span>7</span></td>
-                <td><span>Actes particuliers: </span>Demande de passeport (renouvellement/établissement/prorogation) </td>
-                <td>9h - 11h</td>
-                <td>A la date de la réception de la valise diplomatique transmettant le passeport, de 14H - 16H</td>
+                <td><span>{t('capacity_row7')}</span>{t('capacity_row7_1')} </td>
+                <td>{t('capacity_row2_2')}</td>
+                <td>{t('capacity_row7_2')}</td>
             </tr>
             <tr>
                 <td><span>8</span></td>
-                <td><span>Actes particuliers: </span>Déclaration, procès-verbal, certificat ou prestations non spécifiées</td>
-                <td>9h - 11h</td>
-                <td>24 heures après le dépôt, de 14H à 16H</td>
+                <td><span>{t('capacity_row8')}</span>{t('capacity_row8_1')}</td>
+                <td>{t('capacity_row2_2')}</td>
+                <td>{t('capacity_row8_2')}</td>
             </tr>
             
         </table>

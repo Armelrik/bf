@@ -11,63 +11,63 @@ function LetPass() {
       <div className='lp_text'>
         <h1>{t('visas_head')}</h1>
         {/* <p>{t('visas_text')}</p> */}
-        <p>Composition de dossier pour l’etablissement du laisser passer normal</p>
+        <p>{t('let_title1')} </p>
         <table>
         <tr id="header">
-                <th>Numero</th>
-                <th>Documents</th>
-                <th>Montant en Dirham </th>
-                <th>Observations: non détenteur de la CIC</th>
+                <th>{t('consulCard_title1')}</th>
+                <th>{t('consulCard_title2')}</th>
+                <th>{t('consulCard_title3')}</th>
+                <th>{t('consulCard_title4')}</th>
             </tr>
             
             <tr>
                 <td><span>1</span></td>
-                <td>Frais d’établissement de Laissez-passer  </td>
+                <td>{t('let_row1')}</td>
                 <td><span>17</span></td>
                 <td><span>34</span></td>
             </tr>
 
             <tr>
                 <td><span>2</span></td>
-                <td>Acte de naissance  </td>
+                <td>{t('let_row2')}</td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>3</span></td>
-                <td>Copie de la Carte Nationale d’Identité Burkinabè ou de la Carte d’Identité Consulaire ou du Certificat de nationalité burkinabè</td>
+                <td>{t('let_row3')}</td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>4</span></td>
-                <td>Photocopie du passeport </td>
+                <td>{t('let_row4')}</td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>5</span></td>
-                <td>Titre de séjour du demandeur  </td>
+                <td>{t('let_row5')}</td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             
             <tr>
                 <td><span>6</span></td>
-                <td>Adresse complète et destination </td>
+                <td>{t('let_row6')}</td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>7</span></td>
-                <td>Deux (02) photos d’identités  </td>
+                <td>{t('let_row7')}</td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             
             <tr>
                 <td><span></span></td>
-                <td><span>Montant total </span></td>
+                <td><span>{t('consulCard_row7')}</span></td>
                 <td><span>17</span></td>
                 <td><span>34</span></td>
             </tr>
@@ -76,73 +76,72 @@ function LetPass() {
 
         <hr/>
         {/* <p>{t('visas_text')}</p> */}
-        <p>Composition de dossier pour l’etablissement d’un laissez-passer pour mineur</p>
+        <p>{t('let_title2')}</p>
         <table>
             <tr id="header">
-                <th>Number</th>
-                <th>Documents</th>
-                <th>Fees in Dirham </th>
-                <th>Observations: unregistered fees</th>
+                <th>{t('consulCard_title1')}</th>
+                <th>{t('consulCard_title2')}</th>
+                <th>{t('consulCard_title3')}</th>
+                <th>{t('consulCard_title4')}</th>
             </tr>
             
             <tr>
                 <td><span>1</span></td>
-                <td>Frais d’établissement de Laissez-passer  </td>
+                <td>{t('let_row_2_1')}</td>
                 <td><span>17</span></td>
                 <td><span>34</span></td>
             </tr>
 
             <tr>
                 <td><span>2</span></td>
-                <td>Acte de naissance  </td>
+                <td>{t('let_row_2_2')}</td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>3</span></td>
-                <td>Photocopie du passeport </td>
+                <td>{t('let_row_2_3')}</td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>4</span></td>
-                <td>Photocopie de passeports des deux parents pour les mineurs</td>
+                <td>{t('let_row_2_4')}</td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>5</span></td>
-                <td>Titre de séjour des parents pour les mineurs</td>
+                <td>{t('let_row_2_5')}</td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             <tr>
                 <td><span>6</span></td>
-                <td>Adresse complète du lieu de résidence et de destination </td>
+                <td>{t('let_row_2_6')}</td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
         
             <tr>
                 <td><span>7</span></td>
-                <td>Deux (02) photos d’identités  </td>
+                <td>{t('let_row_2_7')}</td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
             
             <tr>
                 <td><span></span></td>
-                <td><span>Montant total </span></td>
+                <td><span>{t('consulCard_row7')}</span></td>
                 <td><span>17</span></td>
                 <td><span>34</span></td>
             </tr>
             
         </table>
-      </div>
+    </div>
         
     </div>
-    
-  )
+    )
 }
 
 export default LetPass;

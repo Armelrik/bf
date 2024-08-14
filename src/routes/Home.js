@@ -23,6 +23,7 @@ function Home() {
         buttonText={t("buttonText")}
         url="/signup"
         btnClass="show"
+        isHome="true"
       />
       <Destination />
       <Tools />

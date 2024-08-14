@@ -1,18 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './GaleryDataStyles.css';
-import Img from '../assets/istockphoto-467228674-1024x1024.jpg';
 import Img1 from "../assets/istockphoto-583736340-1024x1024.jpg";
 import Img2 from "../assets/istockphoto-496359874-1024x1024.jpg";
 import Img3 from "../assets/istockphoto-493558744-1024x1024.jpg";
 import Img4 from "../assets/istockphoto-1090499678-1024x1024.jpg";
 import gsap from 'gsap';
-import { init } from 'events';
 
-export class GaleryData extends Component {
-    render() {
-        
-const items = document.querySelectorAll('.item');
-const expand = (item, i) => {
+import { useTranslation } from "react-i18next";
+
+function GaleryData () {
+  const { t } = useTranslation();
+  const items = document.querySelectorAll('.item');
+  const expand = (item, i) => {
   items.forEach((it, ind) => {
     if (i === ind) return
     it.clicked = false
@@ -33,7 +32,7 @@ const expand = (item, i) => {
 
 items.forEach((item, i) => {
     
-  item.clicked = true//false
+  item.clicked = false
   item.addEventListener('click', () => expand(item, i))
 })
 
@@ -41,30 +40,19 @@ items.forEach((item, i) => {
   return (
     <div className='galerydata'>
         <div className='galery'>
-            <h1>Notre derniere ceremonie</h1>
-            <p>Nous avons eu notre celemonie de remise de prix en faveur de l'institution des activites</p>
+            <h1>{ t ('galery_head') }</h1>
+            <p>{ t ('galery_text') }</p>
             <div className='slide'>
                 <div className='group'>
-                    <img className='item' src={Img1} />
-                    <img className='item' src={Img2} />
-                    <img className='item' src={Img3} />
-                    <img className='item' src={Img4} />
-                </div>
-            </div>
-            <h1>Nos locaux et infrastructures</h1>
-            <p>Notre bureau se trouve en plein coeur de la ville de Dubai et offre un access rapide a nos services</p>
-            <div className='slide'>
-                <div className='group'>
-                    <img className='item' src={Img2}></img>
-                    <img className='item' src={Img4}></img>
-                    <img className='item' src={Img3}></img>
-                    <img className='item' src={Img1}></img>
+                    <img className='item' src={Img1} alt='img1' />
+                    <img className='item' src={Img2} alt='img2'/>
+                    <img className='item' src={Img3} alt='img3'/>
+                    <img className='item' src={Img4} alt='img4'/>
                 </div>
             </div>
         </div>
     </div>
   )
-}
 }
 
 export default GaleryData;

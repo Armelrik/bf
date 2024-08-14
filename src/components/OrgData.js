@@ -6,39 +6,41 @@ import Img2 from "../assets/blue.png";
 import Img3 from "../assets/orange.png";
 import Img4 from "../assets/ambasador.jpeg";
 
+import { t } from 'i18next';
+
 
 export class OrgData extends Component {
 
   render() {
-
+    
     return (
       <div className='OrgData'>
-        <h1>Une organisation structuree pour vous servire</h1>
+        <h1>{ t('Org_title') }</h1>
 
         <div className='tree'>
             <ul>
-                <li><Link to="#" className='amb_col'><img src={Img4} alt=''/><span>Ambassadeur</span></Link>
+                <li><Link to="#" className='amb_col'><img src={Img4} alt=''/><span>{ t('Org_three1') }</span></Link>
                 {/* <h3 className='float'><span>Protocole</span></h3> */}
                     <ul>
-                        <li><Link to="#"><img src={Img1} alt=''/><span>Secretariat particulier</span></Link></li>
+                        <li><Link to="#"><img src={Img1} alt=''/><span>{ t('Org_sub_three1') }</span></Link></li>
                         {/* <li><Link to="#"><img src={Img2} alt=''/><span>Communication et relations publiques</span></Link></li> */}
 
-                        <li><Link to="#"><img src={Img1} alt=''/><span>Premier conseiller</span></Link>
+                        <li><Link to="#"><img src={Img1} alt=''/><span>{ t('Org_sub_three2') }</span></Link>
                             <ul>
-                                <li><Link to="#"><img src={Img3} alt=''/><span>Mission militaire et de securite</span></Link>
+                                <li><Link to="#"><img src={Img3} alt=''/><span>{ t('Org_sub_three2_sub') }</span></Link>
                                     {/* <ul>
                                         <li><Link to="#"><img src={Img3} alt=''/><span>Adjoint</span></Link></li>
                                     </ul> */}
                                 </li>
-                                <li><Link to="#"><img src={Img2} alt=''/><span>Service economique et commercial</span></Link></li>
-                                <li><Link to="#"><img src={Img2} alt=''/><span>Service consulaire</span></Link></li>
-                                <li><Link to="#"><img src={Img2} alt=''/><span>Service culturel</span></Link></li>
+                                <li><Link to="#"><img src={Img2} alt=''/><span>{ t('Org_sub_three2_sub1') }</span></Link></li>
+                                <li><Link to="#"><img src={Img2} alt=''/><span>{ t('Org_sub_three2_sub2') }</span></Link></li>
+                                <li><Link to="#"><img src={Img2} alt=''/><span>{ t('Org_sub_three2_sub3') }</span></Link></li>
                                 {/* <li><Link to="#"><img src={Img2} alt=''/><span>Departement politique</span></Link></li> */}
-                                <li><Link to="#"><img src={Img2} alt=''/><span>La tresorerie</span></Link></li>
-                                <li><Link to="#"><img src={Img2} alt=''/><span>Service interpretariat et traduction</span></Link></li>
+                                <li><Link to="#"><img src={Img2} alt=''/><span>{ t('Org_sub_three2_sub4') }</span></Link></li>
+                                <li><Link to="#"><img src={Img2} alt=''/><span>{ t('Org_sub_three2_sub5') }</span></Link></li>
                             </ul>
                         </li>
-                        <li><Link to="#"><img src={Img1} alt=''/><span>Protocole</span></Link>
+                        <li><Link to="#"><img src={Img1} alt=''/><span>{ t('Org_sub_three3') }</span></Link>
                             {/* <ul>
                                 <li><Link to="#"><img src={Img2} alt=''/><span>G Grand Child 1</span></Link></li>
                                 <li><Link to="#"><img src={Img2} alt=''/><span>G Grand Child 2</span></Link></li>
@@ -49,7 +51,7 @@ export class OrgData extends Component {
                 
             </ul>
             {/* <h3 className='floatSpan1'>Protocole</h3> */}
-            <h3 className='floatSpan2'>Agents de l'ambassade</h3>
+            <h3 className='floatSpan2'>{ t('Org_three3') }</h3>
         </div>
 
 
