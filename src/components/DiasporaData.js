@@ -11,8 +11,7 @@ function DiasporaData() {
       <div className='dd_text'>
         {/* <h1>La Diaspora</h1> */}
         <h1>{t('title_message')}</h1>
-        <p>
-        </p>
+        <p></p>
       </div>
     </div>
   )

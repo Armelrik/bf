@@ -6,11 +6,11 @@ import { useTranslation } from 'react-i18next';
 function AmbassadorUs() {
   const { t } = useTranslation();
   return (
-    <div className='ambassador-container'>
+    <div className='ambassador_container'>
       <img src={Img1} alt='ambassador' />
-      <div className='ambassador-text'>
+      <div className='ambassador_text'>
         <h1>{t('ambassador_head')}</h1>
-        <p>{t('ambassador_text')}</p>
+        <p>{t('first_dest_text')}</p>
       </div>
         
     </div>
