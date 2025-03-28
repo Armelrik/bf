@@ -51,13 +51,13 @@ export const ambassadeDropdown = [
   //     menu : "Ambassade",
   //     cName : "submenu-item"
   // },
-  {
-    id: 2,
-    title: "Organigramme",
-    url: "/organigrame",
-    menu: "Ambassade",
-    cName: "submenu-item",
-  },
+  // {
+  //   id: 2,
+  //   title: "Organigramme",
+  //   url: "/organigrame",
+  //   menu: "Ambassade",
+  //   cName: "submenu-item",
+  // },
   //   {
   //     id: 3,
   //     title: "Services",

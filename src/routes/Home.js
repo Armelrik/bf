@@ -27,7 +27,7 @@ function Home() {
       />
       <Destination />
       <Tools />
-      <Booking />
+      {/* <Booking /> */}
       {/* <Trip /> */}
       {/* <Recents /> */}
       <Footer />
