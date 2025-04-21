@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 import Img1 from "../assets/img/bf-drapeau-ciel.jpg";
 import Tools from "../components/Tools";
 import { useTranslation } from "react-i18next";
-import Booking from "./Booking";
+// import Booking from "./Booking";
 
 function Home() {
   const { t } = useTranslation();

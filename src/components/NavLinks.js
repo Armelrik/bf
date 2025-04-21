@@ -61,9 +61,9 @@ function NavLinks() {
           <div>
             <Link to="/otherDoc">{t("dropdown10")}</Link>
           </div>
-          <div>
+          {/* <div>
             <Link to="/diaspora">{t("dropdown16")}</Link>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -74,16 +74,16 @@ function NavLinks() {
         </button>
         <div className="dropdown-content">
           <div>
-            <Link to="/https://www.mae.gov.bf/">{t("dropdown11")}</Link>
+            <Link to="https://www.mae.gov.bf/accueil">{t("dropdown11")}</Link>
           </div>
           <div>
-            <Link to="/https://www.investburkina.com/">{t("dropdown12")}</Link>
+            <Link to="https://burkinatradeportal.bf/#">{t("dropdown12")}</Link>
           </div>
-          <div>
+          {/* <div>
             <Link to="https://burkinatradeportal.bf/#">
               {t("dropdown12_1")}
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -100,7 +100,7 @@ function NavLinks() {
             <Link to="#">{t("dropdown17")}</Link>
           </div>
           <div>
-            <Link to="#">{t("dropdown18")}</Link>
+            <Link to="https://in3.856.mytemp.website/">{t("dropdown18")}</Link>
           </div>
         </div>
       </div>
@@ -111,9 +111,9 @@ function NavLinks() {
           {t("navLink5")}
         </button>
         <div className="dropdown-content">
-          <div>
+          {/* <div>
             <Link to="/ambassade">{t("dropdown13")}</Link>
-          </div>
+          </div> */}
           <div>
             <Link to="/https://www.sig.gov.bf/accueil">{t("dropdown14")}</Link>
           </div>

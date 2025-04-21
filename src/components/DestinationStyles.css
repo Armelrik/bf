@@ -25,15 +25,40 @@
     margin-top: 4.5rem;
 }
 
-.des-text{
+.des-text {
     width: 45%;
     text-align: justify;
     font-size: 1.1rem;
     padding-bottom: 1rem;
+    position: relative;
+    /* ✅ Assure que le bouton reste au-dessus des images */
+    z-index: 1;
+    /* ✅ Met le texte et le bouton au-dessus */
+}
+
+.des-text button {
+    display: block;
+    /* ✅ S'assure qu'il prend bien toute la ligne */
+    width: fit-content;
+    margin-top: 1rem;
+    /* ✅ Évite qu'il touche le texte */
+    padding: 10px 15px;
+    background-color: #076b28;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.des-text button:hover {
+    background-color: #0056b3;
 }
 
 .long-text{
     overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 99; /* number of lines to show */
+    line-clamp: 8;
 }
 
 .short-text{
@@ -90,9 +115,15 @@
         margin-top: 4.5rem;
     }
 
-    .des-text{
-        width: 100%;
-    }
+         .des-text {
+             width: 100%;
+         }
+    
+         .des-text button {
+             margin: auto;
+             /* ✅ Centre le bouton sur mobile */
+             display: block;
+         }
 
     .image{
         width: 100%;
