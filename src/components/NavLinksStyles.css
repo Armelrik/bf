@@ -1,0 +1,294 @@
+.nav-links{
+    text-decoration: none;
+    color: #222;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.7rem .3rem;
+    white-space: nowrap;
+}
+
+.nav-links i{
+    padding-right: 2px;
+}
+
+.nav-links:hover{
+    background-color: green; /* #9a0101; */
+    color: #fff;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-links-mobile{
+    display: none;
+}
+
+
+/* New dropdow */
+.dropbtn {
+    background-color: #fff;
+    /* min-width: 115px; */
+    padding: 5px;
+    font-size: 0.8rem;
+    border: none;
+    text-decoration: none;
+}
+
+.dropbtn i{
+    padding-right: 2px;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #fff;  
+    /* min-width: 150px; */
+    min-width: max-content;
+    text-align: left;
+    padding-left: 5px;
+    font-weight: bold;
+    font-size: .9rem;
+    /* font-weight: bold; */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    /* max-width: 10px; */
+    color: black;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content{display: block;}
+.dropdown:hover .dropbtn{background-color: #1b5f05;}
+
+@media screen and (max-width:1300px) {
+
+    .nav-links{
+        display: block;
+        width: 100%;
+        font-size: 1.2rem;
+        padding: 2rem 0;
+    }
+    .dropbtn{
+        display: block;
+        width: 100%;
+        font-size: 1.2rem;
+        padding: 2rem 0;
+    }
+
+    .nav-links:hover{
+        background: #9a0101;
+        transition: none;
+    }
+
+    .nav-links-mobile{
+        display: block;
+        text-align: center;
+        padding: 1.5rem;
+        margin: auto;
+        border-radius: 4px;
+        width: 80%;
+        background: #9a0101;
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+
+    }
+}
+
+@media screen and (max-width: 900px) {
+  .dropdown {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+  .dropbtn, .nav-links {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    text-align: left;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    padding: 1rem 1.2rem;
+  }
+  .dropdown-content {
+    position: static;
+    display: block;
+    background: #fff;
+    width: 100%;
+    box-shadow: none;
+    padding: 0.5rem 0 0.5rem 1.5rem;
+    border-radius: 0 0 8px 8px;
+    margin-bottom: 0.5rem;
+  }
+  .dropdown-content a {
+    padding: 0.7rem 0;
+    font-size: 1rem;
+    border-radius: 4px;
+  }
+  .dropdown-content a:hover {
+    background: #f3f8f4;
+  }
+  .nav-menu {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    width: 100%;
+    gap: 0;
+  }
+}
+
+/* Modern NavLinks Design */
+.dropdown {
+  background: #fff;
+  border-radius: 14px;
+  margin-bottom: 0.9rem;
+  transition: transform 0.2s;
+  position: relative;
+}
+.dropdown:hover {
+  transform: translateY(-2px) scale(1.01);
+}
+
+.dropbtn, .nav-links {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #23272f;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 1.1rem 1rem;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: background 0.18s, color 0.18s;
+  position: relative;
+  z-index: 1;
+}
+.dropbtn i, .nav-links i {
+  margin-right: 0.4rem;
+  font-size: 1rem;
+  color: #1b5f05;
+  /* min-width: 1.3em; */
+  text-align: center;
+}
+.dropbtn:hover, .nav-links:hover {
+  background: linear-gradient(90deg, #eafaf1 60%, #f5f7fa 100%);
+  color: #1b5f05;
+}
+.dropbtn::after, .nav-links::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 1.3rem;
+  bottom: 0.7rem;
+  width: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #1b5f05 60%, #2563eb 100%);
+  border-radius: 2px;
+  transition: width 0.25s cubic-bezier(.4,0,.2,1);
+}
+.dropbtn:hover::after, .nav-links:hover::after {
+  width: 60%;
+}
+
+.dropdown-content {
+  background: #fff;
+  border-radius: 0 0 12px 12px;
+  margin-top: 0.2rem;
+  padding: 0.5rem 0.7rem 0.7rem 1.7rem;
+}
+.dropdown-content a {
+  display: block;
+  color: #23272f;
+  font-size: 1.08rem;
+  font-weight: 500;
+  padding: 0.7rem 0.7rem 0.7rem 0.2rem;
+  border-radius: 8px;
+  margin-bottom: 0.2rem;
+  transition: background 0.18s, color 0.18s, padding 0.18s;
+  position: relative;
+}
+.dropdown-content a:hover {
+  background: linear-gradient(90deg, #eafaf1 60%, #2563eb11 100%);
+  color: #1b5f05;
+  padding-left: 0.7rem;
+}
+
+/* Chevron icon mobile */
+@media screen and (max-width: 100px) {
+  .dropdown {
+    margin-bottom: 1.2rem;
+    border-radius: 16px;
+    background: #fff;
+  }
+  .dropbtn, .nav-links {
+    font-size: 1.13rem;
+    padding: 1.1rem 1.2rem;
+    border-radius: 16px;
+    background: #fff;
+    color: #23272f;
+    margin-bottom: 0.2rem;
+  }
+  .dropbtn i.fa-chevron-down, .dropbtn i.fa-chevron-up {
+    font-size: 1.25em;
+    color: #f8e00e;
+    margin-left: auto;
+    margin-right: 0.1rem;
+    min-width: 1.5em;
+    transition: color 0.2s, transform 0.2s;
+  }
+  .dropbtn[aria-expanded="true"] i.fa-chevron-up {
+    color: #1b5f05;
+  }
+  .dropdown-content {
+    border-radius: 0 0 14px 14px;
+    margin-top: 0;
+    padding: 0.5rem 0.7rem 0.7rem 1.2rem;
+  }
+  .dropdown-content a {
+    font-size: 1.08rem;
+    border-radius: 8px;
+    margin-bottom: 0.2rem;
+    background: #f5f7fa;
+    color: #23272f;
+    padding: 0.7rem 0.7rem 0.7rem 0.2rem;
+  }
+  .dropdown-content a:hover {
+    background: linear-gradient(90deg, #eafaf1 60%, #2563eb11 100%);
+    color: #1b5f05;
+  }
+}
+
+.dropdown:hover > .dropbtn,
+.dropdown:focus-within > .dropbtn {
+  background: #fff !important;
+  color: #23272f !important;
+  box-shadow: none !important;
+}
+
+@media screen and (max-width:1300px) and (min-width:1001px) {
+    .nav-links, .dropbtn {
+        font-size: 0.750rem;
+        padding: 0.5rem 0.1rem;
+        margin: 0 0.1rem;
+    border-radius: 3px;
+    }
+    .nav-menu {
+        grid-gap: 0px;
+    }
+    .dropdown-content {
+        /* min-width: 180px; */
+        font-size: 0.95rem;
+    }
+}
+
