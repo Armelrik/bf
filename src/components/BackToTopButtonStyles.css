@@ -1,0 +1,15 @@
+.bClass{
+    justify-content: center;
+}
+
+.buttonClass {
+    color: rgb(14, 9, 3);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.10);
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+.buttonClass:hover{
+    color: #9a0101;
+    background-color: black;
+}

@@ -1,0 +1,206 @@
+.conseils-container {
+  max-width: 900px;
+  margin: 48px auto 64px auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(44, 62, 80, 0.10);
+  padding: 3.5rem 2.5rem 2.5rem 2.5rem;
+  font-size: 1.18rem;
+  color: #23272f;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  position: relative;
+  animation: fadeInCard 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+@keyframes fadeInCard {
+  from { opacity: 0; transform: translateY(40px) scale(0.98); }
+  to { opacity: 1; transform: none; }
+}
+
+.conseils-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid #e8f5e8;
+}
+
+.conseils-header h2 {
+  font-size: 2.1rem;
+  color: #1b5f05;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.5rem;
+}
+
+.conseils-reference {
+  font-size: 1.1rem;
+  color: #666;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.conseils-header h3 {
+  font-size: 1.4rem;
+  color: #2c3e50;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.conseils-content {
+  margin-bottom: 2.5rem;
+}
+
+.conseils-content p {
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+  text-align: justify;
+  transition: background 0.2s, box-shadow 0.2s;
+  border-radius: 6px;
+  padding: 0.5rem 0.7rem;
+}
+
+.conseils-content p:hover {
+  background: #f3f8f4;
+  box-shadow: 0 2px 8px rgba(27, 95, 5, 0.06);
+}
+
+.conseils-list {
+  margin: 2rem 0;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.conseils-list li {
+  position: relative;
+  font-weight: 500;
+  color: #2c3e50;
+  font-size: 1.1rem;
+  padding: 1rem 1rem 1rem 2.5rem;
+  background: #f7faf9;
+  border-radius: 8px;
+  transition: background 0.2s, box-shadow 0.2s;
+  border-left: 4px solid #1b5f05;
+  line-height: 1.6;
+}
+
+.conseils-list li::before {
+  content: "\f0da";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #1b5f05;
+  font-size: 1.1rem;
+  position: absolute;
+  left: 0.8rem;
+  top: 1rem;
+}
+
+.conseils-list li:hover {
+  background: #eafaf1;
+  box-shadow: 0 4px 12px rgba(27, 95, 5, 0.08);
+  transform: translateX(4px);
+}
+
+.conseils-list li a {
+  color: #1b5f05;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.conseils-list li a:hover {
+  color: #0d4a03;
+}
+
+.conseils-footer {
+  margin-top: 2.5rem;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #f8faf8 0%, #e8f5e8 100%);
+  border-radius: 12px;
+  border-left: 6px solid #1b5f05;
+}
+
+.conseils-footer p {
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.conseils-footer p:last-child {
+  margin-bottom: 0;
+  font-style: italic;
+  color: #2c3e50;
+}
+
+.conseils-download {
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 2px solid #e8f5e8;
+}
+
+.download-btn {
+  background: linear-gradient(135deg, #1b5f05 0%, #2d7a0a 100%);
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(27, 95, 5, 0.3);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.download-btn:hover {
+  background: linear-gradient(135deg, #0d4a03 0%, #1b5f05 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(27, 95, 5, 0.4);
+}
+
+.download-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 10px rgba(27, 95, 5, 0.3);
+}
+
+.download-btn i {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 900px) {
+  .conseils-container {
+    padding: 2rem 1rem;
+  }
+  .conseils-header h2 {
+    font-size: 1.6rem;
+  }
+  .conseils-header h3 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .conseils-container {
+    padding: 1rem 0.5rem;
+  }
+  .conseils-header h2 {
+    font-size: 1.3rem;
+  }
+  .conseils-header h3 {
+    font-size: 1rem;
+  }
+  .conseils-list li {
+    font-size: 0.95rem;
+    padding: 0.8rem 0.8rem 0.8rem 2rem;
+  }
+  .download-btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 0.95rem;
+  }
+} 
